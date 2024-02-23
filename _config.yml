@@ -11,14 +11,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Uppsala Social Robotics Lab"
-name                     : "Uppsala Social Robotics Lab"
-description              : "The website of Uppsala Social Robotics Lab"
-url                      : https://usr-lab.github.io/
-repository               : usr-lab/usr-lab.github.io
+title                    : "Robot Socialization Lab"
+name                     : "Robot Socialization Lab"
+description              : "The website of Robot Socialization Lab"
+url                      : https://roso-lab.github.io/ # change this to your lab's URL
+repository               : roso-lab/roso-lab.github.io # change this to your lab's repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo_wname.png"
+logo                     : "/assets/images/logo_wname.png" # change this to your lab's logo
 masthead_title           : " "
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 atom_feed:
@@ -26,28 +27,26 @@ atom_feed:
 
 # Social Sharing
 twitter:
-  username               : USR_Lab
+  username               : roso_Lab # change this to your lab's Twitter username
 social:
   type                   : Organization
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Robot Socialization Lab"
   links: 
-    - "https://twitter.com/USR_Lab"
-    - "https://www.youtube.com/@uppsalasocialroboticslab3140"
-    - "https://github.com/usr-lab"
-
+    - "https://twitter.com/roso_lab" # change this to your lab's Twitter URL
+    - "https://github.com/roso-lab" # change this to your lab's GitHub URL
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/USR_Lab"
+      url: "https://twitter.com/roso_lab"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/usr-lab"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@uppsalasocialroboticslab3140"
+      url: "https://github.com/roso_lab"
+    #- label: "YouTube"
+    #  icon: "fab fa-fw fa-youtube"
+    #  url: "https://www.youtube.com/@uppsalasocialroboticslab3140"
 
 
 # Reading Files
