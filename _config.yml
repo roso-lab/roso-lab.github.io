@@ -20,6 +20,12 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : "/assets/images/logo_wname.png" # change this to your lab's logo
 masthead_title           : " "
 
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+    
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 atom_feed:

@@ -1,0 +1,8 @@
+Lab Name: Robot Socialization Lab
+Lab Director: Yuan Gao
+Lab Member: Chen Xi
+Location: Shenzhen Institute of Artificial Intelligence and Robotics/ Chinese University of Hong Kong(Shenzhen), Shen Zhen, China
+Research Focus: The Robot Socialization Lab is envisioned as a cutting-edge research hub dedicated to exploring the applications of heterogeneous multi-robot systems in complex social behaviors. It delves into theoretical frameworks to clarify and construct adaptive mechanisms that enable these systems to thrive within intricate societal interactions. On the practical front, the lab aims to enhance the feasibility of complex, heterogeneous multi-robot systems working collaboratively in shared spaces, akin to human teamwork.
+Technologically, the lab is set to pioneer through the deployment of deep reinforcement learning and embodied intelligence algorithms. These will facilitate complex decision-making processes, strategic interactions, and game-theoretic dynamics among the robots, while also boosting their adaptability in response to environmental cues and task requirements. The lab's distinctive features position it as a future pivotal analytical tool in computational sociology and cultural anthropology, highlighting the adaptability, reusability, and significant role of heterogeneous multi-robot systems in the economy and society at large. 
+Website: roso_lab.github.io
+Contact: gaoyuan@cuhk.edu.cn
