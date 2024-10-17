@@ -37,6 +37,8 @@ feature_row:
 # Welcome to the Social Robotics Lab at Uppsala University
 {: .text-center}
 
+This is a random text --- for test.
+
 At Uppsala Social Robotics lab we aim to design and develop robots that learn to interact socially with humans and bring benefits to the society we live in, for example in application areas such as education, e-learning, healthcare and assistive technology.
 {: .text-center}
 
