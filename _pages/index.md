@@ -34,43 +34,57 @@ feature_row:
         - name: "ginevra"
 ---
 
-<div class = "two-columns">
-  <div>
-    <!--Col1 content--->
-    <h1>Welcome to 
-    The Social Robotics Lab 
-    At Uppsala University</h1>
-  </div>
-  <div>
-    <!--Col12 content--->
-    <p>At Uppsala Social Robotics lab we aim to design and develop robots that learn to interact socially with humans and bring benefits to the society we live in, for example in application areas such as education, e-learning, healthcare and assistive technology.</p>
-  </div>
-</div>
+<section class="full-width-container">
+    <div class = "two-columns">
+        <div class = "column">
+            <div class = "ali">
+            <!--Col1 content--->
+                <h1>Welcome to</h1>
+                <h1 class = "blueHighlight">The Social Robotics Lab</h1>
+                <h1>At Uppsala University</h1>
+            </div>
+        </div>
+        <div class = "column">
+            <div class = "ali">
+                <!--Col12 content--->
+                <p class = "grayHighlight">At Uppsala Social Robotics lab we aim to design and develop robots that learn to interact socially with humans and bring benefits to the society we live in, for example in application areas such as education, e-learning, healthcare and assistive technology.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="full-width-container">
+    <div>
+        <h1>Most recent <span class = "orangeHighlight">news</span></h1>
+    </div>
+    <div>
+        <h2 class="grayHighlight">January 2023</h2>
+        <p class = "highlight"> We had one full paper and two late-breaking reports accepted at the <a href="https://humanrobotinteraction.org/2023/" target="_blank">HRI 2023 conference</a>!
+        </p>
+    </div>
+    <div>
+        <h2 class="grayHighlight"> November 2022</h2>
+        <p class = "highlight">Katie Winkle was granted the <a href = "https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target = "_blank">Jacobs Foundation Research Fellowship</a>!
+        </p>
+    </div>
     
-<!-- # Welcome to the Social Robotics Lab at Uppsala University
-{: .text-center}
-
-At Uppsala Social Robotics lab we aim to design and develop robots that learn to interact socially with humans and bring benefits to the society we live in, for example in application areas such as education, e-learning, healthcare and assistive technology.
-{: .text-center} -->
-
-# Most recent news
-{: .text-right}
-***January 2023***: we had one full paper and two late-breaking reports accepted at the [HRI 2023 conference](https://humanrobotinteraction.org/2023/)!
-
-***November 2022***: Katie Winkle was granted the [Jacobs Foundation Research Fellowship](https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/)!
-
-<!-- [Older news](old_news){: .btn .btn--inverse .text-right} -->
-
-<p style="text-align: right;">
-  <a href="old_news" class="btn btn--inverse">Older news -></a>
-</p>
-
-
-## Most recent publications
+    <div>
+        <p style="text-align: right;">
+          <a href="old_news" class="btn btn--inverse"><span class = "orangeHighlight">Older news -></span></a>
+        </p>
+    </div>
+</section>
+    
+<section class="full-width-container">
+<h1>Most recent <span class = "greenHighlight">publications</span></h1>
 {% include feature_row_publications type="center-small" %}
 
-### Visiting address
- 
+</section>
+
+<h1>Visiting <span class = "pinkHighlight">address</span></h1>
+
 Room 100160, Building 10,
 Department of Information Technology,
 New Ångström (Lägerhyddsvägen 1),

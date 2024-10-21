@@ -1,11 +1,69 @@
 .two-columns {
     display: flex;
     flex-wrap: wrap;
+    height: 80vh; /* 确保容器有足够的高度 */
   }
-  
-  .two-columns > div {
-    flex: 1;
-    min-width: 50%;
-    box-sizing: border-box;
-    padding: 10px;
-  }
+
+.two-columns >.column {
+  display: flex;
+  flex-direction: column; /* 上下排列 */
+  justify-content: center; /* 垂直居中 */
+  align-items: left; /* 水平居中 */
+  flex: 1;
+  min-width: 50%;
+  box-sizing: border-box;
+  /* padding: 10px; */
+
+} 
+
+
+.ali{
+  display: inline-block;
+  flex-direction: column; /* 上下排列 */
+  justify-content: center; /* 垂直居中 */
+  align-items: left; /*水平居左*/
+}
+
+.a{
+  color: #f48533
+}
+a:hover {
+  color: #f48533; /* 可选：设置鼠标悬停时的颜色 */
+}
+
+.blueHighlight {
+  color: #4ac1ef
+}
+
+.orangeHighlight {
+  color: #f48533
+}
+
+.greenHighlight {
+  color: #a5cd42
+}
+
+.pinkHighlight {
+  color: #f2696b
+}
+
+.grayHighlight {
+  color: #a1a1a1
+}
+
+.full-width-container {
+  width: 100%; /* 100视口宽度单位 */
+  height: 80vh;
+  background-color: #ffffff;
+}
+
+.highlight{
+  background-color: #FFEEE1; /* 设置背景色为橙色 */
+  border-radius: 10px;     /* 设置圆角，数值可以根据需要调整 */
+  padding: 20px;           /* 可选：添加内边距以增加可读性 */
+  font-weight: bold;
+}
+
+.right-align{
+  text-align: right;
+}
