@@ -1,13 +1,12 @@
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    height: 80vh; /* 确保容器有足够的高度 */
-  }
+    height: 50vh; /* 确保容器有足够的高度 */
+}
 
 .two-columns >.column {
   display: flex;
   flex-direction: column; /* 上下排列 */
-  justify-content: center; /* 垂直居中 */
   align-items: left; /* 水平居中 */
   flex: 1;
   min-width: 50%;
@@ -16,8 +15,24 @@
 
 } 
 
+.full-width-container1 {
+  width: 100%; /* 100视口宽度单位 */
+  height: 50vh;
+  background-color: #ffffff;
+}
+
+.full-width-container2 {
+  width: 100%; /* 100视口宽度单位 */
+  height: 80vh;
+  background-color: #ffffff;
+}
 
 .ali{
+  display: inline-block;
+  flex-direction: column; /* 上下排列 */
+  align-items: left; /*水平居左*/
+}
+.ali2{
   display: inline-block;
   flex-direction: column; /* 上下排列 */
   justify-content: center; /* 垂直居中 */
@@ -32,15 +47,18 @@ a:hover {
 }
 
 .blueHighlight {
-  color: #4ac1ef
+  color: #f48d45
 }
 
 .orangeHighlight {
-  color: #f48533
+  color: #f4bb6e
+}
+.titleHighlight {
+  color: #012696
 }
 
 .greenHighlight {
-  color: #a5cd42
+  color: #a4e2c6
 }
 
 .pinkHighlight {
@@ -51,14 +69,10 @@ a:hover {
   color: #a1a1a1
 }
 
-.full-width-container {
-  width: 100%; /* 100视口宽度单位 */
-  height: 80vh;
-  background-color: #ffffff;
-}
+
 
 .highlight{
-  background-color: #FFEEE1; /* 设置背景色为橙色 */
+  background-color: #a4e2c6; /* 设置背景色为橙色 */
   border-radius: 10px;     /* 设置圆角，数值可以根据需要调整 */
   padding: 20px;           /* 可选：添加内边距以增加可读性 */
   font-weight: bold;
@@ -66,4 +80,114 @@ a:hover {
 
 .right-align{
   text-align: right;
+}
+
+
+.is-h1 {
+  font-size: 38px;
+  line-height: 1.2;
+}
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; 创建两列网格，每列各占 50% */
+  grid-template-columns: repeat(12, minmax(0px, 1fr));  width: 100%; /* 根据需要调整整体宽度 */
+  padding: 20px;
+  gap: 24px;
+}
+/* .go212694760 {
+  grid-column: 1 / -1;
+} */
+.go212694760 {
+  grid-column: span 6;
+}
+.two-columns2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%; /* 确保容器有足够的高度 */
+}
+
+.two-columns2 >.column {
+display: flex;
+flex-direction: column; /* 上下排列 */
+align-items: left; /* 水平居中 */
+flex: 1;
+min-width: 50%;
+box-sizing: border-box;
+/* padding: 10px; */
+} 
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #a4e2c6;
+  padding: 20px;
+  /* max-width: 600px;
+  min-width: 550px; */
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.text-section {
+  flex: 1;
+  color: #333;
+  padding-right: 20px;
+}
+
+.text-section h1 {
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+.text-section p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #0055ff;
+  border-radius: 50%;
+  color: #0055ff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.image-section {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #8985fc;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  opacity: 0.3;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+
+
+.masthead {
+  background-color: #a4e2c6;
+  border-bottom: 1px solid #a4e2c6;
+}
+
+.greedy-nav{
+  background: #a4e2c6;
+}
+
+.greedy-nav a{
+  color: #012696;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #012696;
 }
