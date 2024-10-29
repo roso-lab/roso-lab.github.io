@@ -14,7 +14,7 @@ locale                   : "en-GB"
 title                    : "Robot Socialization Lab"
 name                     : "Robot Socialization Lab"
 description              : "The website of Robot Socialization Lab"
-url                      : https://roso-lab.github.io/ # change this to your lab's URL
+url                      : https://myroso-lab.github.io/ # change this to your lab's URL
 repository               : roso-lab/roso-lab.github.io # change this to your lab's repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo_wname.png" # change this to your lab's logo

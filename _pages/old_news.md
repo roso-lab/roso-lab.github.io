@@ -1,7 +1,7 @@
 ---
 permalink: /old_news/
 layout: single
-title: Old news
+title: Very old news
 ---
 
 ## 2022
