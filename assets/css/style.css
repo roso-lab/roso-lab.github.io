@@ -191,3 +191,8 @@ box-sizing: border-box;
 .greedy-nav .visible-links a:before {
   background: #012696;
 }
+
+.archive_item-body {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

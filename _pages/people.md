@@ -5,16 +5,18 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
+  # TODO change picture and except text
   overlay_image: /assets/images/group_picture_2022.jpg
-excerpt: 'Currently the lab is home to 2 Master students, 6 PhD students, 1 Postdoc and is headed by 1 Professor and 2 Assistant Professors.'
+excerpt: 'Cillum aute ut voluptate minim ut laborum amet do velit. Cupidatat esse ullamco aute ex exercitation. Proident ea aliqua officia eu Lorem excepteur elit laborum proident commodo laboris veniam. Sit non non esse qui fugiat magna nulla pariatur Lorem enim exercitation adipisicing. Quis dolore mollit commodo qui et tempor laboris aliqua amet.'
 
 feature_row_professors:
-  - image_path: ginevra
-    alt: "Ginevra Castellano"
-    title: "Ginevra Castellano"
+  - image_path: GaoYuan
+    alt: "GAO Yuan"
+    title: "GAO Yuan"
     subtitle: Professor, Lab Director
-    excerpt: "Ginevra Castellano is a Professor at the Department of Information Technology, Uppsala University, where she leads the Social Robotics Lab. Her research interests are in the areas of social robotics and affective computing, and include social learning, personalized adaptive robots, multimodal behaviours and uncanny valley effect in robots and virtual agents. Over the last ten years she has been working on the development of computational abilities that allow robots to behave in a socially intelligent way in scenarios where robots provide social support to humans, for example as tutors in the classroom or as companions for children."
-    btn_label: "Ginevra's personal website"
+    excerpt: "Consectetur irure culpa nostrud eiusmod mollit officia consequat minim nisi adipisicing labore. Velit voluptate culpa minim non. Consectetur incididunt proident consequat veniam anim voluptate dolor ipsum in elit. Incididunt minim ipsum fugiat nisi ex excepteur adipisicing.
+    Proident ea et tempor ad dolor. Ullamco commodo adipisicing ut magna labore sit aliqua amet consectetur. Qui nisi et exercitation ut magna ex voluptate do dolore cupidatat fugiat adipisicing elit culpa. Aliqua non reprehenderit qui magna."
+    btn_label: "GAO Yuan's personal website"
     btn_class: "btn btn--primary"
     url: https://www.katalog.uu.se/profile/?id=N14-947
   - image_path: katie
@@ -98,13 +100,13 @@ feature_row_masters:
 {% include feature_row_people id="feature_row_professors" type="left" %}
 
 # Postdocs
-{% include feature_row_people id="feature_row_postdocs" type="right" %}
+{% include feature_row_people id="feature_row_postdocs" type="left" %}
 
 # PhD Students
 {% include feature_row_people id="feature_row_phds" %}
 
 # Master Students
-{% include feature_row_people id="feature_row_masters" %}
+{% include feature_row_people id="feature_row_masters" type="left"%}
 
 # Alumni
 Sebastian Wallkötter, Ph.D.

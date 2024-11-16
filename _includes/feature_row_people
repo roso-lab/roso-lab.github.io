@@ -7,34 +7,37 @@
 <div class="feature__wrapper">
 
   {% for f in feature_row %}
+  <!-- TODO make container align left or right -->
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
-          <div class="archive__item-teaser">
+          <div class="archive__item-teaser" style = "display:flex;align-items: center; margin: 20px;">
             <img style="object-fit: cover; object-position: top; height: 150px; width: 150px; border-radius: 20px;"
                  src="/assets/images/people/{{ f.image_path | relative_url }}.jpg"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
-          </div>
-        {% endif %}
-
-        <div>
-          {% if f.title %}
-            <h2>{{ f.title }}</h2>
-          {% endif %}
-          
-          {% if f.subtitle %}
-            <h6>{{ f.subtitle }}</h6>
-          {% endif %}
-
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
+            
+            {% endif %}
+            <div style="display: flex; flex-direction: column;">
+              {% if f.title %}
+              <h2 style="margin: 16px;">{{ f.title }}</h2>
+              {% endif %}
+              
+              {% if f.subtitle %}
+              <h6 style="margin: 16px;">{{ f.subtitle }}</h6>
+              {% endif %}
             </div>
+          </div>
+        
+        <div>
+          {% if f.excerpt %}
+          <div class="archive__item-excerpt">
+            {{ f.excerpt | markdownify }}
+          </div>
           {% endif %}
-
+        
           {% if f.url %}
             <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}

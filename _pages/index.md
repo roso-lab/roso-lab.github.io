@@ -33,31 +33,40 @@ feature_row_publications:
         - name: "mengyu"
         - name: "ginevra"
 
+# TODO change url for learn more button
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg  
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
+    alt: "GAOYuan image"
+    title: "高源 GAO Yuan"
+    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人,
+    AIRS智能机器人中心副研究员,
+    香港中文大学（深圳）理工学院兼职助理教授." 
+    url: example.html
+  - image_path: assets/images/people/ChenXi.jpg
+    alt: "CHENXi image"
+    title: "陈晰 CHEN Xi"
+    excerpt: "北京通用人工智能研究院研究员"
+    url: example.html
+  - image_path: assets/images/people/LIQingBiao.jpg
+    alt: "LI Qing Biao image"
+    title: "李庆标 LI Qingbiao"
+    excerpt: "澳门大学计算机系助理教授（独立PI）"
+    url: example.html
+  - image_path: assets/images/people/LIANGChen.jpg 
+    alt: "LIANG Chen image"
+    title: "梁宸 LIANG Chen"
+    excerpt: "澳门大学科技学院助理教授"
+    url: example.html
+  - image_path: assets/images/people/WANGFan.jpg 
+    alt: "WANG Fan image"
+    title: "王凡WANG Fan"
+    excerpt: "AIRS具身智能中心任研究员"
+    url: example.html
+  - image_path: assets/images/people/WANGChongYang.jpg 
+    alt: "WANG Chongyang image"
+    title: "王重阳 WANG Chongyang"
+    excerpt: "四川大学华西医院康复医学研究所助理研究员"
+    url: example.html
 ---
 <!-- About Us -->
 <h1 class = "titleHighlight is-h1">About Us</h1>
