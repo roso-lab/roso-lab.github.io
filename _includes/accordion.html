@@ -1,0 +1,10 @@
+<div class="accordion">
+  {% for item in include.items %}
+    <details>
+      <summary>{{ item.title }}</summary>
+      <div class="details-content">
+        {{ item.content | markdownify }}
+      </div>
+    </details>
+  {% endfor %}
+</div>

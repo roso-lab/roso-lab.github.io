@@ -196,3 +196,23 @@ box-sizing: border-box;
   font-size: 1.2rem;
   line-height: 1.6;
 }
+
+.accordion details {
+  margin-bottom: 1rem;
+  border: 1px solid #a4e2c6;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.accordion details summary {
+  font-weight: bold;
+  cursor: pointer;
+  color:#012696;
+  background-color: #a4e2c6;
+}
+
+.accordion .details-content {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
