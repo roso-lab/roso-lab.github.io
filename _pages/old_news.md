@@ -1,8 +1,8 @@
 ---
 permalink: /old_news/
 layout: single
-title: Very old news
 
+title: Very old news
 accordion_items:
   - title: "2022"
     content: |
