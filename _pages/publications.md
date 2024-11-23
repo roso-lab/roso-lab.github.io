@@ -34,6 +34,20 @@ feature_row:
     members:
         - name: "mengyu"
         - name: "ginevra"
+
+
+accordion_items:
+  - title: "2022"
+    content: |
+      Galatolo, A., Melsión, G.I., Leite, I., & Winkle, K. (2022).The Right (Wo)Man for the Job? Exploring the Role of Gender when Challenging Gender Stereotypes with a Social Robot.Int J of Soc Robotics. [https://doi.org/10.1007/s12369-022-00938-2](https://doi.org/10.1007/s12369-022-00938-2)  
+
+      Zhong, M., Van Zoest, V., Bilal, AM., Papadopoulos, FC., & Castellano, G. (2022).Unimodal vs. Multimodal Prediction of Antenatal Depression from Smartphone-based Survey Data in a Longitudinal Study.In International Conference on Multimodal Interaction (ICMI'22).
+
+  - title: "2021"
+    content: |
+      Ahlberg, S., Axelsson, A., Yu, P., Shaw Cortez, W., Gao, Y., Ghadirzadeh, A., Castellano, G., Kragic, D., Skantze, G., and Dimarogonas, D. V. (2021). Co-adaptive Human-Robot Cooperation: Summary and Challenges. Unmanned Systems 10(2)  
+
+      Perugia, G.,  Paetzel, M., Hupont, I., Varni, G., Chetouani, M., Peters, C., and Castellano, G. (2021). Does the Goal Matter? Emotion Recognition Tasks Can Change the Social Value of Facial Mimicry towards Artificial Agents. Frontiers in Robotics & AI (2021).
 ---
 
 # Most recent publications
@@ -41,19 +55,15 @@ feature_row:
 
 
 
-
-
 # Older publications
 
+{% include accordion.html items=page.accordion_items %}
 
-
-
+<!--
 #### 2022
-
-Galatolo, A., Melsión, G.I., Leite, I., & Winkle, K. (2022). The Right (Wo)Man for the Job? Exploring the Role of Gender when Challenging Gender Stereotypes with a Social Robot. Int J of Soc Robotics https://doi.org/10.1007/s12369-022-00938-2
+"Galatolo, A., Melsión, G.I., Leite, I., & Winkle, K. (2022). The Right (Wo)Man for the Job? Exploring the Role of Gender when Challenging Gender Stereotypes with a Social Robot. Int J of Soc Robotics https://doi.org/10.1007/s12369-022-00938-2
 
 Zhong, M., Van Zoest, V., Bilal, AM., Papadopoulos, FC., & Castellano, G. (2022). Unimodal vs. Multimodal Prediction of Antenatal Depression from Smartphone-based Survey Data in a Longitudinal Study. In International Conference on Multimodal Interaction (ICMI'22). 
-
 Fraile, M., Lindblad, J., Fawcett, C., Sladoje, N., & Castellano, G. (2022). End-to-End Learning and Analysis of Infant Engagement During Guided Play: Prediction and Explainability. In International Conference on Multimodal Interaction (ICMI'22).
 
 Wallkötter, S., Chetouani, M., & Castellano, G. (2022). SLOT-V: Supervised Learning of Observer Models for Legible Robot Motion Planning in Manipulation, 31st IEEE International Conference on Robot & Human Interactive Communication (RO-MAN'22).
@@ -66,18 +76,16 @@ Bilal, AM., Fransson, E., Bränn, E., Eriksson, A., Zhong, M., Gidén, K., Elofs
 
 Elgarf, M., Calvo-Barajas, N., Alves-Oliveira, P., Perugia, G., Castellano, G., Peters, C., and Paiva, A. "And then what happens?” Promoting Children’s Verbal Creativity Using a Robot. In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22). IEEE Press, 71–79. [https://doi.org/10.5555/3523760.3523774](https://dl.acm.org/doi/10.5555/3523760.3523774)
 
-Tanqueray, L., Paulsson, T., Zhong, M., Larsson, S., and Castellano, G. (2022). Gender Fairness in Social Robotics: Exploring a Future Care of Peripartum Depression. In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22). IEEE Press, 598-607. 
-
-
+Tanqueray, L., Paulsson, T., Zhong, M., Larsson, S., and Castellano, G. (2022). Gender Fairness in Social Robotics: Exploring a Future Care of Peripartum Depression. In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22). IEEE Press, 598-607. "
 
 #### 2021
 
 Ahlberg, S., Axelsson, A., Yu, P., Shaw Cortez, W., Gao, Y., Ghadirzadeh, A., Castellano, G., Kragic, D., Skantze, G., and Dimarogonas, D. V. (2021). Co-adaptive Human-Robot Cooperation: Summary and Challenges. Unmanned Systems 10(2)
- 
+
 Perugia, G.,  Paetzel, M., Hupont, I., Varni, G., Chetouani, M., Peters, C., and Castellano, G. (2021). Does the Goal Matter? Emotion Recognition Tasks Can Change the Social Value of Facial Mimicry towards Artificial Agents. Frontiers in Robotics & AI (2021).
- 
+  
 Tanqueray, L., Castellano, G., and Larsson, S. (2021). A Preliminary Case Study on Gender Norms in Robot-Assisted Diagnosis of Perinatal Depression: A Socio-Legal HRI Perspective. GenR workshop, RO-MAN 2021.
- 
+  
 Fraile, M., Lindblad, J., Fawcett, C., Sladoje, N., & Castellano, G. (2021). Automatic analysis of infant engagement during play: An end-to-end learning and Explainable AI pilot experiment. In Companion Publication of the 2021 International Conference on Multimodal Interaction. [https://doi.org/10.1145/3461615.3485443](https://doi.org/10.1145/3461615.3485443)
 
 Zhong, M., Bilal, A. M., Papadopoulos, F. C., & Castellano, G. (2021, November). Psychiatrists’ Views on Robot-Assisted Diagnostics of Peripartum Depression. In International Conference on Social Robotics (pp. 464-474). Springer, Cham.
@@ -89,11 +97,11 @@ Calvo-Barajas, N., Perugia, G., and Castellano., G. 2021. The Effects of Motivat
 Arnelid, M.,  Boman, M., Brännström, A., Campano, E.,  Castellano, G., Dignum, V., Harrison, K., Johnson, E., Lee, F., Lindgren, E., Nilsson, I., Ostrowska, A., García Velázquez, I., and Winkle, K. (2021). <a class="news-link" href="../publications/papers/WASP-HS-CRM-Report-Healthcare-May-2021-1.pdf"> *WASP-HS. Community Reference Meeting: Healthcare. Report. May 2021.* </a>
 
 Wallkötter, S., Tulli, S., Castellano, G., Paiva, A., & Chetouani, M. (2021). Explainable embodied agents through social cues: a review. ACM Transactions on Human-Robot Interaction (THRI), 10(3), 1-24. [https://doi.org/10.1145/3457188](https://doi.org/10.1145/3457188)
- 
+  
 Yang, F., Gao, Y., Ma, R., Zojaji, S., Castellano, G., & Peters, C. (2021). A dataset of human and robot approach behaviors into small free-standing conversational groups. PLOS ONE,  https://doi.org/10.1371/journal.pone.0247364
- 
+  
 Perugia, G., Paetzel-Prüsmann, M., Madelene Alanenpää, & Castellano, G. (2021). I Can See it in Your Eyes: Gaze as an Implicit Cue of Uncanniness and Task Performance in Repeated Interactions with Robots. Frontiers in Robotics and AI. DOI: 10.3389/frobt.2021.645956
- 
+  
 Elgarf, M., Calvo-Barajas, N., Paiva, A., Castellano, G., and Peters, C. (2021). Reward Seeking or Loss Aversion? Impact of Regulatory Focus Theory on Emotional Induction in Children and Their Behavior Towards a Social Robot. <i>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems</i>. Association for Computing Machinery, New York, NY, USA, Article 587, 1–11. [DOI:https://doi.org/10.1145/3411764.3445486](https://doi.org/10.1145/3411764.3445486)
 
 Stower, R., Ligthart, M., van Straten, C., Calvo-Barajas, N., Velner, E., and Beelen. (2021). Interdisciplinary Research Methods for Child-Robot Relationship Formation. In <i>Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction</i> (<i>HRI '21 Companion</i>). Association for Computing Machinery, New York, NY, USA, 700–702. [DOI:https://doi.org/10.1145/3434074.3444869](https://doi.org/10.1145/3434074.3444869)
@@ -101,7 +109,6 @@ Stower, R., Ligthart, M., van Straten, C., Calvo-Barajas, N., Velner, E., and Be
 Paetzel-Prüsmann, M., Perugia, G., & Castellano, G. (2021). The Influence of Robot Personality on the Development of Uncanny Feelings. *Computers in Human Behavior*, 106756.
 
 Stower, R., Calvo-Barajas, N., Castellano, G., & Kappas, A. (2021). A Meta-analysis on Children’s Trust in Social Robots. *International Journal of Social Robotics*, 1-23, 2021. [https://doi.org/10.1007/s12369-020-00736-8](https://doi.org/10.1007/s12369-020-00736-8)
-
 
 #### 2020
 Perugia, G., Paetzel, M., & Castellano, G. (2020, November) On the Role of Personality and Empathy in Human-Human, Human-Agent, and Human-Robot Mimicry. *In International Conference on Social Robotics (ICSR)*, (accepted). Springer, Cham.
@@ -396,3 +403,4 @@ Camurri, A., Castellano, G., Mazzarino, B., Varni, G., & Volpe, G. (2004). Expre
 
 
 
+ -->

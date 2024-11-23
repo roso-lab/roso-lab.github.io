@@ -1,8 +1,25 @@
 ---
 permalink: /old_news/
 layout: single
-title: Old news
+
+title: Very old news
+accordion_items:
+  - title: "2022"
+    content: |
+        ***October:*** Ana Tanevska joined the lab as a postdoctoral researcher!
+        
+        ***September:*** Alessio Galatolo joined the lab as a PhD student!
+        
+        ***August:*** Lux Miranda joined the lab as a PhD student!
+        
+        ***February:*** Laura Moradbakhti joined the lab as a visiting PhD researcher 
+        
+        ***February:*** Katie Winkle joined the lab as an Assistant Professor
 ---
+
+{% include accordion.html items=page.accordion_items %}
+
+<!-- 
 
 ## 2022
 
@@ -70,3 +87,4 @@ title: Old news
 
 ***January:*** Ginevra gave the talk "Social Artificial Intelligence: Towards Human-Centric Robotics" at the 20-year celebration of the Department of Information Technology, Uppsala University.
 
+ -->

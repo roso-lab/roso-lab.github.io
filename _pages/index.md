@@ -33,31 +33,40 @@ feature_row_publications:
         - name: "mengyu"
         - name: "ginevra"
 
+# TODO change url for learn more button
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
-  - image_path: assets/images/people/GaoYuan.jpg  
-    alt: "GaoYuan image"
-    title: "高源Gao Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人
-    AIRS智能机器人中心副研究员
-    香港中文大学（深圳）理工学院兼职助理教授"
+    alt: "GAOYuan image"
+    title: "高源 GAO Yuan"
+    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人,
+    AIRS智能机器人中心副研究员,
+    香港中文大学（深圳）理工学院兼职助理教授." 
+    url: example.html
+  - image_path: assets/images/people/ChenXi.jpg
+    alt: "CHENXi image"
+    title: "陈晰 CHEN Xi"
+    excerpt: "北京通用人工智能研究院研究员"
+    url: example.html
+  - image_path: assets/images/people/LIQingBiao.jpg
+    alt: "LI Qing Biao image"
+    title: "李庆标 LI Qingbiao"
+    excerpt: "澳门大学计算机系助理教授（独立PI）"
+    url: example.html
+  - image_path: assets/images/people/LIANGChen.jpg 
+    alt: "LIANG Chen image"
+    title: "梁宸 LIANG Chen"
+    excerpt: "澳门大学科技学院助理教授"
+    url: example.html
+  - image_path: assets/images/people/WANGFan.jpg 
+    alt: "WANG Fan image"
+    title: "王凡WANG Fan"
+    excerpt: "AIRS具身智能中心任研究员"
+    url: example.html
+  - image_path: assets/images/people/WANGChongYang.jpg 
+    alt: "WANG Chongyang image"
+    title: "王重阳 WANG Chongyang"
+    excerpt: "四川大学华西医院康复医学研究所助理研究员"
+    url: example.html
 ---
 <!-- About Us -->
 <h1 class = "titleHighlight is-h1">About Us</h1>
@@ -139,7 +148,7 @@ feature_row_people:
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
 <p style="text-align: left;">
-    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight">More Staffs -></span></a>
+    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">More Staffs -></span></a>
 </p>
 
 </section>
@@ -147,9 +156,9 @@ feature_row_people:
 <!-- Visiting Address -->
 <h1 class="is-h1 titleHighlight">Visiting address</h1>
 
+
 <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1002.2981046358279!2d17.644667298394783!3d59.839238200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fc96395cf4cf9%3A0x69a9043a908d353b!2sUppsala%20Social%20Robotics%20Lab!5e0!3m2!1szh-TW!2sus!4v1730133257394!5m2!1szh-TW!2sus" 
-    width="600" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.0857935578856!2d114.20735607463354!3d22.68784992873768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404769e8e03db83%3A0x72bee586ac015803!2z6aaZ5riv5Lit5paH5aSn5a2477yI5rex5Zyz77yJ!5e0!3m2!1szh-TW!2sus!4v1732289628271!5m2!1szh-TW!2sus" width="600" 
     height="450" 
     style="border:0;" 
     allowfullscreen="" 
@@ -158,11 +167,7 @@ feature_row_people:
 </iframe>
 
 
-Room 100160, Building 10,
-Department of Information Technology,
-New Ångström (Lägerhyddsvägen 1),
-Uppsala
+2001 Longxiang Boulevard, Longgang District, Shenzhen
  
-[Travel directions](http://www.it.uu.se/contact)
  
-**Contact person**: [Ginevra Castellano](http://user.it.uu.se/~ginca820/)
+**Contact person**: TBC
