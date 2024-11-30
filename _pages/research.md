@@ -4,8 +4,8 @@ title: Research
 layout: splash
 header: 
   overlay_color: "#000"
-  overlay_image: "assets/images/group_picture_2022.jpg"
-  overlay_filter: "0.5"
+  overlay_image: "assets/images/index/indexTopImg.png"
+  overlay_filter: "0.2"
 
 feature_row:
   - image_path: assets/images/projects/childrens_intuitive_theory_ai.jpg

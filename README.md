@@ -5,10 +5,14 @@ This is Social Heterogeneous Multi-set Research Group Website.
 - [x] Fold Publication pages
 - [x] Change maps
 - [ ] Collect content [content collection tables](https://docs.qq.com/doc/DR3R6QWppRHNpbWtk?u=e9c66e9abc7a4be594994d91be9ec1e5&no_promotion=1)
-- [ ] Design logo
+- [x] Design logo
+- [x] Personal *introduce*
 - [ ] Replace top image
 - [ ] Usless pages like teachings
 - [ ] Animations when scrolling down
+
+
+
 
 ## How to
 ### Add a member on index pages
