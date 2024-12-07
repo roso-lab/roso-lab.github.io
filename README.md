@@ -7,8 +7,9 @@ This is Social Heterogeneous Multi-set Research Group Website.
 - [ ] Collect content [content collection tables](https://docs.qq.com/doc/DR3R6QWppRHNpbWtk?u=e9c66e9abc7a4be594994d91be9ec1e5&no_promotion=1)
 - [x] Design logo
 - [x] Personal *introduce*
+- [ ] roso 
 - [ ] Replace top image
-- [ ] Usless pages like teachings
+- [ ] Useless pages like teachings
 - [ ] Animations when scrolling down
 
 

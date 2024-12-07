@@ -38,17 +38,15 @@ feature_row:
 
 
 accordion_items:
-  - title: "2022"
+  - title: "2024"
     content: |
-      Galatolo, A., Melsión, G.I., Leite, I., & Winkle, K. (2022).The Right (Wo)Man for the Job? Exploring the Role of Gender when Challenging Gender Stereotypes with a Social Robot.Int J of Soc Robotics. [https://doi.org/10.1007/s12369-022-00938-2](https://doi.org/10.1007/s12369-022-00938-2)  
-
-      Zhong, M., Van Zoest, V., Bilal, AM., Papadopoulos, FC., & Castellano, G. (2022).Unimodal vs. Multimodal Prediction of Antenatal Depression from Smartphone-based Survey Data in a Longitudinal Study.In International Conference on Multimodal Interaction (ICMI'22).
-
-  - title: "2021"
+      Chongyang Wang, Siqi Zheng, Lingxiao Zhong, Chun Yu, Chen Liang, Yuntao Wang, Yuan Gao*, Tin Lun Lam, Yuanchun Shi, “PepperPose: Full-Body Pose Estimation with a Companion Robot,” ACM CHI conference on Human Factors in Computing Systems, Hawaii, USA, ACM CHI, May 11-16, 2024. 
+      
+      Wenqiang Lai, Tianwei Zhang, Tin Lun Lam, Yuan Gao*. Vision-Language Model-based Physical Reasoning for Robot Liquid Perception, IROS, 2024
+            
+  - title: "2023"
     content: |
-      Ahlberg, S., Axelsson, A., Yu, P., Shaw Cortez, W., Gao, Y., Ghadirzadeh, A., Castellano, G., Kragic, D., Skantze, G., and Dimarogonas, D. V. (2021). Co-adaptive Human-Robot Cooperation: Summary and Challenges. Unmanned Systems 10(2)  
-
-      Perugia, G.,  Paetzel, M., Hupont, I., Varni, G., Chetouani, M., Peters, C., and Castellano, G. (2021). Does the Goal Matter? Emotion Recognition Tasks Can Change the Social Value of Facial Mimicry towards Artificial Agents. Frontiers in Robotics & AI (2021).
+      Yuan Gao, Junfeng Chen, Xi Chen, Chongyang Wang, J Hu, Fuqin Deng, Tin Lun Lam, Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning, IEEE Transaction on Robotics. 2023
 ---
 
 # Most recent publications
