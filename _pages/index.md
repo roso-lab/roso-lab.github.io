@@ -1,6 +1,6 @@
 ---
 permalink: /
-last_modified_at: 2022-01-13
+last_modified_at: 2024-11-30
 layout: splash
 excerpt: The lab is located in Uppsala, Sweden and was founded in 2016 by Ginevra Castellano.
 header:
@@ -8,22 +8,23 @@ header:
     image_description: "Group photo of the lab's members"
 
 feature_row_publications:
-  - image_path: assets/images/publications/winkle2023feminist.png
+  - image_path: assets/images/publications/PepperPose.png
     alt: "Publication image"
-    paper: "Feminist Human-Robot Interaction: Disentangling Power, Principles and Practice for Better, More Ethical HRI"
-    venue: "*HRI '23*"
-    url: "https://erickajohnson.se/onewebmedia/hrifp1204-winkle-CC-BY.pdf"
+    paper: "PepperPose: Full-Body Pose Estimation with a Companion Robot, CHI'24, Chongyang Wang，Yuan Gao，Chun Yu"
+    venue: "*CHI'24*"
+    url: "https://dl.acm.org/doi/pdf/10.1145/3613904.3642231"
     members:
-        - name: "katie"
-  - image_path: assets/images/publications/miranda2023identity.png
+        - name: "WANGChongYang"
+        - name: "GaoYuan"
+        - name: "ZHENGSiQi"
+  - image_path: assets/images/publications/UbiPhysio.png
     alt: "Publication image"
-    paper: "Examining the state of robot identity"
-    venue: "*HRI '23*"
-    url: "https://luxmiranda.com/publications/miranda_et_al_2023.pdf"
+    paper: "UbiPhysio: Support Daily Functioning, Fitness, and Rehabilitation with Action Understanding and Feedback in Natural Language"
+    venue: "* Ubicomp'24*"
+    url: "https://dl.acm.org/doi/pdf/10.1145/3643552"
     members:
-        - name: "lux"
-        - name: "ginevra"
-        - name: "katie"
+        - name: "WANGChongYang"
+        - name: "Chun Yu"
   - image_path: assets/images/publications/paulsson2023peripartum.png
     alt: "Publication image"
     paper: "Exploring Mothers’ Perspectives on Socially Assistive Robots in Peripartum Depression Screening"
@@ -33,7 +34,6 @@ feature_row_publications:
         - name: "mengyu"
         - name: "ginevra"
 
-# TODO change url for learn more button
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
     alt: "GAOYuan image"
@@ -41,7 +41,7 @@ feature_row_people:
     excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人,
     AIRS智能机器人中心副研究员,
     香港中文大学（深圳）理工学院兼职助理教授." 
-    url: example.html
+    url: https://gaoyuankidult.github.io/
   - image_path: assets/images/people/ChenXi.jpg
     alt: "CHENXi image"
     title: "陈晰 CHEN Xi"
@@ -98,10 +98,10 @@ feature_row_people:
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="titleHighlight">January 2023</h2>
-                    <p> We had one full paper and two late-breaking reports accepted at the <span class = "titleHighlight">HRI 2023 conference</span>!
-                    </p>
-                    <a href="https://humanrobotinteraction.org/2023/" target="_blank" class="button">➔</a>
+                    <h2 class="titleHighlight">October 2024</h2>
+                    <p> “具身智能社会化异构多机”
+                    圆桌论坛</p>
+                    <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
                 </div>
             </div>
             <!--Col12 content--->
