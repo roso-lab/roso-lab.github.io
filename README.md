@@ -4,13 +4,16 @@ This is Social Heterogeneous Multi-set Research Group Website.
 ## Todo
 - [x] Fold Publication pages
 - [x] Change maps
-- [ ] Collect content [content collection tables](https://docs.qq.com/doc/DR3R6QWppRHNpbWtk?u=e9c66e9abc7a4be594994d91be9ec1e5&no_promotion=1)
+- [x] Collect content [content collection tables](https://docs.qq.com/doc/DR3R6QWppRHNpbWtk?u=e9c66e9abc7a4be594994d91be9ec1e5&no_promotion=1)
 - [x] Design logo
 - [x] Personal *introduce*
-- [ ] roso 
-- [ ] Replace top image
-- [ ] Useless pages like teachings
+- [x] roso
+- [ ] Replace top image[Ask]
+- [x] Useless pages like teachings
 - [ ] Animations when scrolling down
+- [x] index page left alien
+- [x] font color of research people and publication utilize
+
 
 
 

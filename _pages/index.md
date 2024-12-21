@@ -20,19 +20,15 @@ feature_row_publications:
   - image_path: assets/images/publications/UbiPhysio.png
     alt: "Publication image"
     paper: "UbiPhysio: Support Daily Functioning, Fitness, and Rehabilitation with Action Understanding and Feedback in Natural Language"
-    venue: "* Ubicomp'24*"
+    venue: "Ubicomp'24"
     url: "https://dl.acm.org/doi/pdf/10.1145/3643552"
     members:
         - name: "WANGChongYang"
-        - name: "Chun Yu"
-  - image_path: assets/images/publications/paulsson2023peripartum.png
-    alt: "Publication image"
-    paper: "Exploring Mothers’ Perspectives on Socially Assistive Robots in Peripartum Depression Screening"
-    venue: "*HRI '23*"
-    url: assets/publications/paulsson2023peripartum.pdf
-    members:
-        - name: "mengyu"
-        - name: "ginevra"
+        # - name: "Chun Yu"
+  - image_path: assets/images/publications/MoreOnTheRoad.png
+    alt: "Publication TBC"
+    paper: "More publications are on the road..."
+    venue: "N/A"
 
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
@@ -69,14 +65,20 @@ feature_row_people:
     url: example.html
 ---
 <!-- About Us -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">
+	You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
+</span>
+<div style="object-fit: cover;" data-kui-anim="fadeIn">
+
 <h1 class = "titleHighlight is-h1">About Us</h1>
 <section class="full-width-container1">
     <div class = "two-columns">
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <h1>The Social Robotics Lab</h1>
-                <h1>At Uppsala University</h1>
+                <h1>Social Heterogeneous Multiprocessor Research Group</h1>
+                <h2>At Shenzhen China</h2>
             </div>
         </div>
         <div class = "column">
@@ -88,6 +90,7 @@ feature_row_people:
         </div>
     </div>
 </section>
+</div>
 
 <!-- News -->
 <section>
@@ -130,7 +133,7 @@ feature_row_people:
     
 </div>
 <p style="text-align: left;">
-    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight">Older news -></span></a>
+    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family:fantasy">Older news -></span></a>
 </p>
 
 </section>
@@ -148,7 +151,7 @@ feature_row_people:
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
 <p style="text-align: left;">
-    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">More Staffs -></span></a>
+    <a href="people" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">More Staffs -></span></a>
 </p>
 
 </section>
