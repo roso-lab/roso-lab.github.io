@@ -4,8 +4,8 @@ title: Teachings
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: "/assets/images/group_picture_2022.jpg"
+  overlay_image: "assets/images/index/indexTopImg.png"
+  overlay_filter: "0.2"
 excerpt: "Currently the lab is responsible for 2 Master's level courses and a PhD-level course."
 
 feature_row:

@@ -45,7 +45,9 @@
 a:hover {
   color: #f48533; /* 可选：设置鼠标悬停时的颜色 */
 }
-
+a:visited {
+  color: #f48533; /* 可选：设置已访问链接的颜色 */
+}
 .blueHighlight {
   color: #f48d45
 }
@@ -186,10 +188,15 @@ box-sizing: border-box;
 
 .greedy-nav a{
   color: #012696;
+  text-decoration: none;
 }
 
 .greedy-nav .visible-links a:before {
   background: #012696;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #012696;
 }
 
 .archive_item-body {
@@ -216,3 +223,13 @@ box-sizing: border-box;
   padding-left: 1rem;
 }
 
+.feature__item--left .archive__item-teaser {
+  margin: 10px;
+  width: auto;
+}
+
+
+.feature__item--left .archive__item-body {
+  width: 80%;
+  margin: 10px;
+}
