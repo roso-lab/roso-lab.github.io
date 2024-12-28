@@ -8,12 +8,19 @@ header:
   overlay_filter: "0.2"
 excerpt: Here is a list of projects of the Societal Heterogenous Multi-Robot System Research Group.
 
+project_row:
+  - image_path: "/assets/images/robo_and_human copy.jpg"
+    project_name: 大运项目
+    people: Yuan Gao
+    excerpt: Lorem ipsum dolor sit amet, iisque legimus vis ad, nam feugait deserunt instructior ne. Dicant utroque facilis id eum, sea at facilisi expetendis. Vis ad aeque volumus volutpat. Ponderum adversarium has an, pro ei aeque definitiones mediocritatem. Delectus principes ei pri, in unum exerci nonumy mel. Id vim persius assueverit, duis scripserit consequuntur ex vix.
 # feature_row:
 #   - image_path: assets/images/projects/childrens_intuitive_theory_ai.jpg
 #     alt: "Project image"
 #     title: "Children’s Intuitive Theory of AI"
 #     excerpt: "This project, funded by the Marianne and Marcus Wallenberg Foundation (2023-2026), will explore trustworthy robots for preschoolers."
 ---
+
+<!-- {% include feature_row_people_v1 id="feature_row_professors" type="left" %} TODO-->
 
 <div class="container1">
     <div class="image-section1">
