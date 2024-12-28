@@ -17,7 +17,7 @@ description              : "The website of Social Heterogeneous Multiprocessor R
 url                      : https://myroso-lab.github.io/ # change this to your lab's URL
 repository               : roso-lab/roso-lab.github.io # change this to your lab's repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/logo_2.png" # change this to your lab's logo
+logo                     : "assets/images/logo_eng_chn.png" # change this to your lab's logo
 masthead_title           : " "
 
 # Collections

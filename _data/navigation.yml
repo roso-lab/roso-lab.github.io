@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: Research
-    url: research/
+  - title: Projects
+    url: projects/
 
   - title: People
     url: people/
@@ -9,8 +9,8 @@ main:
   - title: Publications
     url: publications/
     
-  - title: Work with us!
-    url: work_with_us/
+  # - title: Work with us!
+  #   url: work_with_us/
 
   - title: Teachings
     url: teachings/
@@ -18,5 +18,5 @@ main:
   - title: Contacts
     url: contacts/
     
-  - title: Very old news
-    url: old_news/
+  # - title: Very old news
+  #   url: old_news/
