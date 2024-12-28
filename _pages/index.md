@@ -53,11 +53,11 @@ feature_row_people:
     title: "梁宸 LIANG Chen"
     excerpt: "澳门大学科技学院助理教授"
     url: example.html
-  - image_path: assets/images/people/WANGFan.jpg 
-    alt: "WANG Fan image"
-    title: "王凡WANG Fan"
-    excerpt: "AIRS具身智能中心任研究员"
-    url: example.html
+#   - image_path: assets/images/people/WANGFan.jpg 
+#     alt: "WANG Fan image"
+#     title: "王凡WANG Fan"
+#     excerpt: "AIRS具身智能中心任研究员"
+#     url: example.html
   - image_path: assets/images/people/WANGChongYang.jpg 
     alt: "WANG Chongyang image"
     title: "王重阳 WANG Chongyang"
@@ -65,10 +65,18 @@ feature_row_people:
     url: example.html
 ---
 <!-- About Us -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- Visiter count model-->
+<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">
 	You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
-</span>
+</span> -->
+
+<!-- <h1 class = "titleHighlight is-h1">About Us</h1>
+<h2 style = "padding-bottom: 0em; border-bottom: 0px;">Social Heterogeneous Multiprocessor Research Group</h2>
+<h4>At Shenzhen China</h4>
+
+The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
+ -->
 <div style="object-fit: cover;" data-kui-anim="fadeIn">
 
 <h1 class = "titleHighlight is-h1">About Us</h1>
@@ -84,7 +92,7 @@ feature_row_people:
         <div class = "column">
             <div class = "ali2">
                 <!--Col12 content--->
-                <p>At Uppsala Social Robotics lab we aim to design and develop robots that learn to interact socially with humans and bring benefits to the society we live in, for example in application areas such as education, e-learning, healthcare and assistive technology.
+                <p>The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
                 </p>
             </div>
         </div>
@@ -130,7 +138,6 @@ feature_row_people:
             </div>
         </div>
     </div>
-    
 </div>
 <p style="text-align: left;">
     <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family:fantasy">Older news -></span></a>

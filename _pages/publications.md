@@ -4,7 +4,7 @@ title: Publications
 layout: splash
 header: 
   overlay_color: "#000"
-  overlay_image: "assets/images/index/indexTopImg.png"
+  overlay_image: "assets/images/robo_and_human_single_color.png"
   overlay_filter: "0.2"
 excerpt: Please always refer to Google Scholar's profiles of each member for a more updated list of publications. 
 
@@ -22,19 +22,15 @@ feature_row:
   - image_path: assets/images/publications/UbiPhysio.png
     alt: "Publication image"
     paper: "UbiPhysio: Support Daily Functioning, Fitness, and Rehabilitation with Action Understanding and Feedback in Natural Language"
-    venue: "* Ubicomp'24*"
+    venue: "*Ubicomp'24*"
     url: "https://dl.acm.org/doi/pdf/10.1145/3643552"
     members:
         - name: "WANGChongYang"
-        - name: "Chun Yu"
-  - image_path: assets/images/publications/paulsson2023peripartum.png
-    alt: "Publication image"
-    paper: "Exploring Mothers’ Perspectives on Socially Assistive Robots in Peripartum Depression Screening"
-    venue: "*HRI '23*"
-    url: assets/publications/paulsson2023peripartum.pdf
-    members:
-        - name: "mengyu"
-        - name: "ginevra"
+        # - name: "Chun Yu"
+  - image_path: assets/images/publications/MoreOnTheRoad.png
+    alt: "Publication TBC"
+    paper: "More publications are on the road..."
+    venue: "*N/A*"
 
 
 accordion_items:

@@ -6,8 +6,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   # TODO change picture and except text
-  overlay_image: assets/images/index/indexTopImg.png
-excerpt: 'Cillum aute ut voluptate minim ut laborum amet do velit. Cupidatat esse ullamco aute ex exercitation. Proident ea aliqua officia eu Lorem excepteur elit laborum proident commodo laboris veniam. Sit non non esse qui fugiat magna nulla pariatur Lorem enim exercitation adipisicing. Quis dolore mollit commodo qui et tempor laboris aliqua amet.'
+  overlay_image: assets/images/robo_and_human_single_color.png
+excerpt: 'Here are members of the Societal Heterogenous Multi-Robot System Research Group'
 
 feature_row_professors:
   - image_path: GaoYuan
@@ -33,11 +33,11 @@ feature_row_professors:
     title: "LIANG Chen"
     subtitle: Assistant Professor, Computational Media Arts, Information Hub, Hong Kong University of Science and Technology (Guangzhou)
     excerpt: "He received his bachelor's and doctorate degrees from the Department of Computer Science, Tsinghua University in 2019 and 2024, under the supervision of Professor Shi Yuanchun. His research interests include human-computer interaction and pervasive computing, including pervasive perception +X, and immersive experience innovation in Mixed Reality. He has published more than 20 papers in the international top conferences/journals of human-computer interaction, pervasive computing and artificial intelligence CHI, UIST, Ubicomp, ICML, ECCV, AAAI, and has been granted 5 invention patents. He has twice won the ACM CHI Best Paper nomination Award (2023, 2024). He is responsible for the research and development of AR interaction technology and ring device, which has reached the international leading level in the accuracy, resolution and interaction efficiency of key gesture recognition."
-  - image_path: WANGFan
-    alt: "WANGFan"
-    title: "WANG Fan"
-    subtitle: Researcher, Center for Embodied Intelligence, AIRS
-    excerpt: "Fan Wang is a former outstanding architect of Baidu. He holds a master's degree from CU-Boulder and a bachelor's degree from University of Science and Technology of China. Fan Wang's main research areas and interests include end-to-end robotics models, large models of natural language, and AI for Science. Fan Wang has published more than 30 conference and journal papers. He has published a large number of cutting-edge papers in the fields of generative large language model, biomolecular representation large model, Human-In-The-Loop reinforcement learning, meta-learning and other fields, and has won the Special Prize of Wu Wenjun Artificial Intelligence Science and Technology Progress Award."
+  # - image_path: WANGFan
+  #   alt: "WANGFan"
+  #   title: "WANG Fan"
+  #   subtitle: Researcher, Center for Embodied Intelligence, AIRS
+  #   excerpt: "Fan Wang is a former outstanding architect of Baidu. He holds a master's degree from CU-Boulder and a bachelor's degree from University of Science and Technology of China. Fan Wang's main research areas and interests include end-to-end robotics models, large models of natural language, and AI for Science. Fan Wang has published more than 30 conference and journal papers. He has published a large number of cutting-edge papers in the fields of generative large language model, biomolecular representation large model, Human-In-The-Loop reinforcement learning, meta-learning and other fields, and has won the Special Prize of Wu Wenjun Artificial Intelligence Science and Technology Progress Award."
   - image_path: WANGChongYang
     alt: "WANGChongYang"
     title: "WANG Chongyang"
@@ -47,7 +47,7 @@ feature_row_professors:
 ---
 
 # Main Members
-{% include feature_row_people id="feature_row_professors" type="left" %}
+{% include feature_row_people_v1 id="feature_row_professors" type="left" %}
 
 <!-- # Postdocs
 {% include feature_row_people id="feature_row_postdocs" type="left" %} -->
