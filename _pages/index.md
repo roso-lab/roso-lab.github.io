@@ -101,6 +101,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
 </div>
 
 <!-- News -->
+
 <section>
 <h1 class="titleHighlight is-h1">Most recent news</h1>
 <div class="grid-container">

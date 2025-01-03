@@ -10,13 +10,13 @@
       <div class="container1">
         {% if f.image_path %}
         <div class="image-section1" >
-            <img src="/assets/images/projects/{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; hight: 5em;">
+            <img src="{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; hight: 5em;">
         </div>
         {% endif %}
 
         <div class="text-section1">
-            {% if f.project_name %}
-              <h1 class="titleHighlight">{{ f.project_name }}</h1>
+            {% if f.title %}
+              <h1 class="titleHighlight">{{ f.title }}</h1>
             {% endif %}
             {% if f.people %}
               <p>@{{ f.people }}</p>

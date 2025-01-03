@@ -9,26 +9,26 @@ header:
 excerpt: Here is a list of projects of the Societal Heterogenous Multi-Robot System Research Group.
 
 feature_row:
-  - image_path: "robo_and_human copy.jpg"
-    project_name: 大运项目
+  - image_path: "/assets/images/projects/robo_and_human copy.jpg"
+    title: 大运项目
     people: Yuan Gao
     excerpt: Lorem ipsum dolor sit amet, iisque legimus vis ad, nam feugait deserunt instructior ne. Dicant utroque facilis id eum, sea at facilisi expetendis. Vis ad aeque volumus volutpat.  
     url: "#"
 
-  - image_path: "robo_and_human copy.jpg"
-    project_name: 异构多机大脑
+  - image_path: "/assets/images/projects/robo_and_human copy.jpg"
+    title: 异构多机大脑
     people: Zhang Lin
     excerpt: Lorem ipsum dolor sit amet, iisque legimus vis ad, nam feugait deserunt instructior ne. Dicant utroque facilis id eum, sea at facilisi expetendis. Vis ad aeque volumus volutpat.  
     url: "#"
 
-  - image_path: "robo_and_human copy.jpg"
-    project_name: 异构多机模拟器
+  - image_path: "/assets/images/projects/robo_and_human copy.jpg"
+    title: 异构多机模拟器
     people: Qingbiao Li
     excerpt: Lorem ipsum dolor sit amet, iisque legimus vis ad, nam feugait deserunt instructior ne. Dicant utroque facilis id eum, sea at facilisi expetendis. Vis ad aeque volumus volutpat.  
     url: "#"
 
-  - image_path: "robo_and_human copy.jpg"
-    project_name: 大兴机场项目
+  - image_path: "/assets/images/projects/robo_and_human copy.jpg"
+    title: 大兴机场项目
     people: Xi Chen
     excerpt: Lorem ipsum dolor sit amet, iisque legimus vis ad, nam feugait deserunt instructior ne. Dicant utroque facilis id eum, sea at facilisi expetendis. Vis ad aeque volumus volutpat.  
     url: "#"
@@ -40,7 +40,7 @@ feature_row:
 #     excerpt: "This project, funded by the Marianne and Marcus Wallenberg Foundation (2023-2026), will explore trustworthy robots for preschoolers."
 ---
 
-{% include feature_row_projects id="feature_row"%} 
+{% include feature_row_2Col id="feature_row"%} 
 
 <!-- <div class="grid-container">
     <div class="go212694760 project-container">
