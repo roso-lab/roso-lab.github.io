@@ -85,8 +85,8 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <h1>Social Heterogeneous Multiprocessor Research Group</h1>
-                <h2>At Shenzhen China</h2>
+                <h1>Societal Heterogenous Multi-Robot System Research Group</h1>
+                <h2>@ Shenzhen China</h2>
             </div>
         </div>
         <div class = "column">
@@ -158,7 +158,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
 <p style="text-align: left;">
-    <a href="people" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">More Staffs -></span></a>
+    <a href="people" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">Learn more -></span></a>
 </p>
 
 </section>
