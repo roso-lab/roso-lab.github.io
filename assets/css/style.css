@@ -86,8 +86,15 @@ a:visited {
 
 
 .is-h1 {
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 1.6rem;
   line-height: 1.2;
+}
+
+
+.is-p {
+  font-size: 0.7rem;
+  line-height: 1.5;
 }
 
 .is-title{
@@ -314,7 +321,3 @@ box-sizing: border-box;
   content: none;
 }
 
-.is-p {
-  font-size: 19px;
-  line-height: 0.8;
-}

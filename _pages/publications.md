@@ -45,11 +45,11 @@ accordion_items:
       Yuan Gao, Junfeng Chen, Xi Chen, Chongyang Wang, J Hu, Fuqin Deng, Tin Lun Lam, Asymmetric Self-Play-Enabled Intelligent Heterogeneous Multirobot Catching System Using Deep Multiagent Reinforcement Learning, IEEE Transaction on Robotics. 2023
 ---
 
-# Most recent publications
+<div class = "is-h1 titleHighlight" style = "margin-bottom: 2rem" >Most recent publications<div>
 {% include feature_row_publications type="center-small" %}
 
 
 
-# Older publications
+<div class = "is-h1 titleHighlight" style = "margin-bottom: 2rem" > Older publications </div>
 
 {% include accordion.html items=page.accordion_items %}

@@ -49,7 +49,7 @@ feature_row_professors:
 
 ---
 
-# Main Members
+<div class = "is-h1 titleHighlight" style = "margin-bottom: 2rem" > Main Members </div>
 {% include feature_row_people_v1 id="feature_row_professors" type="left" %}
 
 <!-- # Postdocs

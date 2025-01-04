@@ -19,7 +19,7 @@
       
       <div class="feature__content" style="flex: 1;">
         {% if f.title %}
-          <h2 style="margin: 0 0 10px 0;">{{ f.title }}</h2>
+          <div class = "is-h1" style="margin: 0 0 10px 0;">{{ f.title }}</div>
         {% endif %}
         
         {% if f.subtitle %}
@@ -27,7 +27,7 @@
         {% endif %}
         
         {% if f.excerpt %}
-          <p style="margin: 0; line-height: 1.6; color: #333;">{{ f.excerpt | markdownify }}</p>
+          <div class = "is-p" style="margin: 0; line-height: 1.6; color: #333;">{{ f.excerpt | markdownify }}</div>
         {% endif %}
         
         {% if f.url %}

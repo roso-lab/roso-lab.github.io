@@ -85,14 +85,14 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <h1>Societal Heterogenous Multi-Robot System Research Group</h1>
-                <h2>@ Shenzhen China</h2>
+                <h1 class = "is-h1">Societal Heterogenous Multi-Robot System Research Group</h1>
+                <h1 class = "is-h1">@ Shenzhen China</h1>
             </div>
         </div>
         <div class = "column">
             <div class = "ali2">
                 <!--Col12 content--->
-                <p>The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
+                <p class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
                 </p>
             </div>
         </div>
@@ -110,9 +110,9 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="titleHighlight">October 2024</h2>
-                    <p> “具身智能社会化异构多机”
-                    圆桌论坛</p>
+                    <h2 class="is-h1 titleHighlight">October 2024</h2>
+                    <div class="is-p"> “具身智能社会化异构多机”
+                    圆桌论坛</div>
                     <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
                 </div>
             </div>
@@ -127,9 +127,9 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="titleHighlight">November 2022</h2>
-                    <p>Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
-                    </p>
+                    <h2 class="is-h1 titleHighlight">November 2022</h2>
+                    <div class="is-p">Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
+                    </div>
                     <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
                 </div>
             </div>
