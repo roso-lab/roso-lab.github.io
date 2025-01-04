@@ -1,0 +1,34 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="grid-container">
+  {% for f in feature_row %}
+    <div class="go212694760 project-container">
+      <div class="container1">
+        {% if f.image_path %}
+        <div class="image-section1" >
+            <img src="{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; hight: 5em;">
+        </div>
+        {% endif %}
+
+        <div class="text-section1">
+            {% if f.title %}
+              <h1 class="titleHighlight">{{ f.title }}</h1>
+            {% endif %}
+            {% if f.people %}
+              <p>@{{ f.people }}</p>
+            {% endif %}
+            {% if f.excerpt %}
+              <p>{{ f.excerpt }}</p>
+            {% endif %}
+            {% if f.url %}
+              <a href="{{ f.url | relative_url }}" class="learn-more-btn">LEARN MORE</a>
+            {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

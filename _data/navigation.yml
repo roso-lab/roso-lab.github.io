@@ -15,8 +15,13 @@ main:
   - title: Teachings
     url: teachings/
 
+  - title: Art
+    url: Art/
+
   - title: Contacts
     url: contacts/
     
   # - title: Very old news
   #   url: old_news/
+  - title: 中文
+    url: zh/

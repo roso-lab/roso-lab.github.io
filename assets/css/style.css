@@ -46,7 +46,7 @@ a:hover {
   color: #f48533; /* 可选：设置鼠标悬停时的颜色 */
 }
 a:visited {
-  color: #f48533; /* 可选：设置已访问链接的颜色 */
+  color: currentColor; /* 可选：设置已访问链接的颜色 */
 }
 .blueHighlight {
   color: #f48d45
@@ -86,8 +86,15 @@ a:visited {
 
 
 .is-h1 {
-  font-size: 38px;
+  /* font-size: 38px; */
+  font-size: 1.6rem;
   line-height: 1.2;
+}
+
+
+.is-p {
+  font-size: 0.7rem;
+  line-height: 1.5;
 }
 
 .is-title{
@@ -242,11 +249,11 @@ box-sizing: border-box;
 .project-container{
   display: flex;
   align-items: center;
-  background-color: #a4e2c6;
+  background-color: white;
   padding: 20px;
   /* max-width: 600px;
   min-width: 550px; */
-  min-height: 500px;
+  min-height: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -259,7 +266,7 @@ box-sizing: border-box;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .image-section1 {
@@ -278,19 +285,20 @@ box-sizing: border-box;
 .text-section1 {
   flex: 1;
   max-width: 500px;
+  max-height: 300px;
 }
 
 .text-section1 h1 {
   color: #012696; /* Matches the blue text color */
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 .text-section1 p {
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #333; /* Darker text for contrast */
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .learn-more-btn {
@@ -307,5 +315,9 @@ box-sizing: border-box;
 .learn-more-btn:hover {
   background-color: #012696;
   color: #fff;
+}
+
+.feature__item--left a.btn::before {
+  content: none;
 }
 

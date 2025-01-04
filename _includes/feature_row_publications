@@ -26,19 +26,19 @@
           {% endif %}
 
           {% if f.paper %}
-            <div>
+            <div class = "is-p">
               {{ f.paper | markdownify }}
             </div>
           {% endif %}
 
           {% if f.venue %}
-            <div>
+            <div class = "is-p">
               {{ f.venue | markdownify }}
             </div>
           {% endif %}
           
           {% if f.excerpt %}
-            <div>
+            <div class = "is-p">
               {{ f.excerpt | markdownify }}
             </div>
           {% endif %}
@@ -48,7 +48,7 @@
           {% endfor %}
 
           {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: "Go to paper" }}</a></p>
+            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }} is-p">{{ f.btn_label | default: "Go to paper" }}</a></p>
           {% endif %}
         </div>
       </div>

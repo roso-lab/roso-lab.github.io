@@ -2,7 +2,7 @@
 permalink: /
 last_modified_at: 2024-11-30
 layout: splash
-lang: en
+lang: zh
 excerpt: The lab is located in Uppsala, Sweden and was founded in 2016 by Ginevra Castellano.
 header:
     image: assets/images/index/indexTopImg.png
@@ -64,18 +64,12 @@ feature_row_people:
     title: "王重阳 WANG Chongyang"
     excerpt: "四川大学华西医院康复医学研究所助理研究员"
     url: example.html
-  - image_path: assets/images/work_in_progress.jpg
-    alt: "ZHANG Lin image"
-    title: "张林 ZHANG Lin"
-    excerpt: "纽约州立大学计算机博士，深圳技术大学助理教授，共生无界联合创始人。前粤港澳大湾区数字经济研究院（IDEA）资深研究员、前腾讯高级研究员。
-" 
-
 ---
 <!-- About Us -->
 <!-- Visiter count model-->
 <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">
-	You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
+    You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
 </span> -->
 
 <!-- <h1 class = "titleHighlight is-h1">About Us</h1>
@@ -86,20 +80,20 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
  -->
 <div style="object-fit: cover;" data-kui-anim="fadeIn">
 
-<h1 class = "titleHighlight is-h1">About Us</h1>
+<h1 class = "titleHighlight is-h1">关于我们</h1>
 <section class="full-width-container1">
     <div class = "two-columns">
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <h1 class = "is-h1">Societal Heterogenous Multi-Robot System Research Group</h1>
-                <h1 class = "is-h1">@ Shenzhen China</h1>
+                <h1 class = "is-h1">社会化异构多机研究组</h1>
+                <h1 class = "is-h1">@ 深圳 中国</h1>
             </div>
         </div>
         <div class = "column">
             <div class = "ali2">
                 <!--Col12 content--->
-                <p class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
+                <p class = "is-p">社会化异构多机研究流派是一个致力于探索和推进多机器人系统在多样化社会环境中应用的前沿研究组织。我们的组织愿景是成为全球领先的机器人技术研究与创新中心，通过跨学科的合作和深入的社会洞察，推动机器人技术的发展，使其能够更好地服务于人类社会，满足不同文化、经济和环境背景下的需求。
                 </p>
             </div>
         </div>

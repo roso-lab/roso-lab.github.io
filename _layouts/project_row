@@ -1,0 +1,34 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="container1" style="display: flex; flex-direction: row; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+    {% for f in feature_row %}
+        {% if f.image_path %}"
+            <div class="image-section1" style="flex: 1;">
+                <img src="{{ include.image_path | default: '/assets/images/default.jpg' }}" 
+                    alt="{{ include.image_alt | default: 'Default image description' }}" 
+                    style="width: 100%; height: auto; border-radius: 10px;">
+            </div>
+        {% endif %}
+    
+        <div class="text-section1" style="flex: 2;">
+            {% if f.project_name %}
+                <h1 style="margin: 0 0 10px 0;">{{ f.project_name | default: 'Default Title' }}</h1>
+            {"% endif %}
+
+            {% if f.people %}
+                <p style="margin: 0 0 20px 0; font-style: italic;">{{ f.people| default: '@Unknown Author' }}</p>
+            {% endif %}
+            {% if f.excerpt %}
+                <p style="margin: 0 0 20px 0; line-height: 1.6;">{{ f.excerpt | default: 'Default description text goes here.' }}</p>
+            {% endif %}
+            
+            {% if f.url %}
+                <a href="{{ include.url | relative_url }}" class="learn-more-btn" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">{{ include.button_label | default: 'LEARN MORE' }}</a>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
