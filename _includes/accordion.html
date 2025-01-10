@@ -1,8 +1,8 @@
 <div class="accordion">
   {% for item in include.items %}
     <details>
-      <summary>{{ item.title }}</summary>
-      <div class="details-content">
+      <summary class = "is-h4">{{ item.title }}</summary>
+      <div class="details-content is-p">
         {{ item.content | markdownify }}
       </div>
     </details>
