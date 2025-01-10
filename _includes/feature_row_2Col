@@ -10,7 +10,7 @@
       <div class="container1">
         {% if f.image_path %}
         <div class="image-section1" >
-            <img src="{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; hight: 5em;">
+            <img src="{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; height: 5em;">
         </div>
         {% endif %}
 
@@ -25,7 +25,7 @@
               <p>{{ f.excerpt }}</p>
             {% endif %}
             {% if f.url %}
-              <a href="{{ f.url | relative_url }}" class="learn-more-btn">LEARN MORE</a>
+              <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p">LEARN MORE</a>
             {% endif %}
         </div>
       </div>

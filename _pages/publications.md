@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_image: "assets/images/robo_and_human_single_color.png"
   overlay_filter: "0.2"
-excerpt: Please always refer to Google Scholar's profiles of each member for a more updated list of publications. 
+excerpt: We promote breakthroughs through extensive and inspiring research
 
 
 feature_row:

@@ -1,6 +1,6 @@
 ---
 permalink: /
-last_modified_at: 2024-11-30
+last_modified_at: 2025-1-11
 layout: splash
 lang: en
 excerpt: The lab is located in Uppsala, Sweden and was founded in 2016 by Ginevra Castellano.
@@ -34,42 +34,35 @@ feature_row_publications:
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
     alt: "GAOYuan image"
-    title: "高源 GAO Yuan"
-    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人,
-    AIRS智能机器人中心副研究员,
-    香港中文大学（深圳）理工学院兼职助理教授." 
+    title: "Yuan Gao"
+    excerpt: "Head of the Research Direction of the Embodied AI Robotics Innovation Center of Guangdong Province, Associate Researcher of AIRS Intelligent Robot Center, Adjunct Assistant Professor of School of Science and Engineering in CUHKSZ." 
     url: https://gaoyuankidult.github.io/
   - image_path: assets/images/people/ChenXi.jpg
     alt: "CHENXi image"
-    title: "陈晰 CHEN Xi"
-    excerpt: "北京通用人工智能研究院研究员"
+    title: "Xi Chen"
+    excerpt: "Researcher of Beijing Institute for General Artificial Intelligence(BIGAI)"
     url: example.html
   - image_path: assets/images/people/LIQingBiao.jpg
     alt: "LI Qing Biao image"
-    title: "李庆标 LI Qingbiao"
-    excerpt: "澳门大学计算机系助理教授（独立PI）"
+    title: "Qingbiao Li"
+    excerpt: "Assistant Professor (PI Independent), Department of Computer Science, University of Macau"
     url: example.html
   - image_path: assets/images/people/LIANGChen.jpg 
     alt: "LIANG Chen image"
-    title: "梁宸 LIANG Chen"
-    excerpt: "澳门大学科技学院助理教授"
+    title: "Chen Liang"
+    excerpt: "Assistant Professor, Faculty of Science and Technology, University of Macau"
     url: example.html
-#   - image_path: assets/images/people/WANGFan.jpg 
-#     alt: "WANG Fan image"
-#     title: "王凡WANG Fan"
-#     excerpt: "AIRS具身智能中心任研究员"
-#     url: example.html
+
   - image_path: assets/images/people/WANGChongYang.jpg 
     alt: "WANG Chongyang image"
-    title: "王重阳 WANG Chongyang"
-    excerpt: "四川大学华西医院康复医学研究所助理研究员"
+    title: "Chongyang Wang"
+    excerpt: "Assistant researcher, Institute of Rehabilitation Medicine, West China Hospital, Sichuan University"
     url: example.html
-  - image_path: assets/images/work_in_progress.jpg
+  - image_path: assets/images/people/ZHANG_Lin.png
     alt: "ZHANG Lin image"
-    title: "张林 ZHANG Lin"
-    excerpt: "纽约州立大学计算机博士，深圳技术大学助理教授，共生无界联合创始人。前粤港澳大湾区数字经济研究院（IDEA）资深研究员、前腾讯高级研究员。
-" 
-
+    title: "Lin Zhang"
+    excerpt: "PhD in Computer science, State University of New York, Assistant Professor, Shenzhen University of Technology, co-founder of Symbiosis Unbounded. Former Senior researcher of Digital Economy Research Institute (IDEA) of Guangdong-Hong Kong-Macao Greater Bay Area and former senior researcher of Tencent。" 
+    url: example.html
 ---
 <!-- About Us -->
 <!-- Visiter count model-->
@@ -78,12 +71,6 @@ feature_row_people:
 	You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
 </span> -->
 
-<!-- <h1 class = "titleHighlight is-h1">About Us</h1>
-<h2 style = "padding-bottom: 0em; border-bottom: 0px;">Social Heterogeneous Multiprocessor Research Group</h2>
-<h4>At Shenzhen China</h4>
-
-The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
- -->
 <div style="object-fit: cover;" data-kui-anim="fadeIn">
 
 <h1 class = "titleHighlight is-h1">About Us</h1>
@@ -92,15 +79,15 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <h1 class = "is-h1">Societal Heterogenous Multi-Robot System Research Group</h1>
-                <h1 class = "is-h1">@ Shenzhen China</h1>
+                <div class = "is-h2">Societal Heterogenous Multi-Robot System Research Group</div>
+                <div class = "is-h2">@ Shenzhen China</div>
             </div>
         </div>
         <div class = "column">
             <div class = "ali2">
                 <!--Col12 content--->
-                <p class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
-                </p>
+                <div class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
+                </div>
             </div>
         </div>
     </div>
@@ -117,7 +104,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="is-h1 titleHighlight">October 2024</h2>
+                    <h2 class="is-h2 titleHighlight">October 2024</h2>
                     <div class="is-p"> “具身智能社会化异构多机”
                     圆桌论坛</div>
                     <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
@@ -134,7 +121,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="is-h1 titleHighlight">November 2022</h2>
+                    <h2 class="is-h2 titleHighlight">November 2022</h2>
                     <div class="is-p">Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
                     </div>
                     <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
@@ -148,7 +135,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
     </div>
 </div>
 <p style="text-align: left;">
-    <a href="old_news" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family:fantasy">Older news -></span></a>
+    <a href="old_news" class="btn btn--inverse"><span class = "is-h4 titleHighlight">Older news ➔</span></a>
 </p>
 
 </section>
@@ -166,7 +153,7 @@ The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge re
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
 <p style="text-align: left;">
-    <a href="people" class="btn btn--inverse"><span class = "titleHighlight" style = "font-family: fantasy;">Learn more -></span></a>
+    <a href="people" class="learn-more-btn is-p">Learn more ➔</a>
 </p>
 
 </section>
