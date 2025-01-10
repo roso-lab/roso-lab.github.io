@@ -61,7 +61,7 @@ feature_row_people:
   - image_path: assets/images/people/ZHANG_Lin.png
     alt: "ZHANG Lin image"
     title: "Lin Zhang"
-    excerpt: "PhD in Computer science, State University of New York, Assistant Professor, Shenzhen University of Technology, co-founder of Symbiosis Unbounded. Former Senior researcher of Digital Economy Research Institute (IDEA) of Guangdong-Hong Kong-Macao Greater Bay Area and former senior researcher of Tencent。" 
+    excerpt: "PhD in Computer science, State University of New York, Assistant Professor, Shenzhen University of Technology, co-founder of Symbiosis Unbounded. Former Senior researcher of Digital Economy Research Institute (IDEA) of Guangdong-Hong Kong-Macao Greater Bay Area and former senior researcher of Tencent" 
     url: example.html
 ---
 <!-- About Us -->
@@ -152,7 +152,7 @@ feature_row_people:
 <h1 class="is-h1 titleHighlight">People</h1>
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
-<p style="text-align: left;">
+<p style="text-align: left; color:#012696">
     <a href="people" class="learn-more-btn is-p">Learn more ➔</a>
 </p>
 

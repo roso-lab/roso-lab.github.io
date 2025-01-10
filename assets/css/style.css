@@ -46,7 +46,7 @@ a:hover {
   color: #f48533; /* 可选：设置鼠标悬停时的颜色 */
 }
 a:visited {
-  color: currentColor; /* 可选：设置已访问链接的颜色 */
+  color:inherit; /* 可选：设置已访问链接的颜色 */
 }
 .blueHighlight {
   color: #f48d45

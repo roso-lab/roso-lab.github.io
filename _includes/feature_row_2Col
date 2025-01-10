@@ -25,7 +25,9 @@
               <p>{{ f.excerpt }}</p>
             {% endif %}
             {% if f.url %}
-              <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p">LEARN MORE</a>
+              <div style = "text-align: left; color: #012696;">
+                <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p">LEARN MORE</a>
+              </div>
             {% endif %}
         </div>
       </div>
