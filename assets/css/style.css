@@ -43,7 +43,7 @@
   color: #f48533
 }
 a:hover {
-  color: #f48533; /* 可选：设置鼠标悬停时的颜色 */
+  color:currentColor; /* 可选：设置鼠标悬停时的颜色 */
 }
 a:visited {
   color:inherit; /* 可选：设置已访问链接的颜色 */
@@ -337,4 +337,55 @@ box-sizing: border-box;
 .feature__item--left a.btn::before {
   content: none;
 }
+
+.language-switch {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+/* .scroll-to-top{
+
+}
+.language-toggle {
+  color:black;
+  background: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+} */
+
+/* 样式设置：右下角圆形按钮 */
+.scroll-to-top, .language-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover, .language-toggle:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+.scroll-to-top {
+  bottom: 80px; /* 控制返回顶部按钮的位置 */
+}
+
+.language-toggle {
+  bottom: 20px; /* 控制语言切换按钮的位置 */
+}
+
 

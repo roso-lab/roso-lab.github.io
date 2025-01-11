@@ -1,8 +1,8 @@
 ---
-permalink: /
+permalink: /zh/index_zh/
 last_modified_at: 2025-1-11
 layout: splash
-lang: en
+lang: zh
 excerpt: The Social Heterogeneous Multimachine Research School is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments.
 header:
     image: assets/images/topImage.png
@@ -14,6 +14,7 @@ feature_row_publications:
     paper: "PepperPose: Full-Body Pose Estimation with a Companion Robot, CHI'24, Chongyang Wang，Yuan Gao，Chun Yu"
     venue: "*CHI'24*"
     url: "https://dl.acm.org/doi/pdf/10.1145/3613904.3642231"
+    btn_label: "了解更多"
     members:
         - name: "WANGChongYang"
         - name: "GaoYuan"
@@ -28,41 +29,42 @@ feature_row_publications:
         # - name: "Chun Yu"
   - image_path: assets/images/publications/MoreOnTheRoad.png
     alt: "Publication TBC"
-    paper: "More publications are on the road..."
+    paper: "更多发表待续..."
     venue: "N/A"
 
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
     alt: "GAOYuan image"
-    title: "Yuan Gao"
-    excerpt: "Head of the Research Direction of the Embodied AI Robotics Innovation Center of Guangdong Province, Associate Researcher of AIRS Intelligent Robot Center, Adjunct Assistant Professor of School of Science and Engineering in CUHKSZ." 
+    title: "高源"
+    excerpt: "广东省具身智能机器人创新中心具身智能异构多机研究方向负责人,
+    AIRS智能机器人中心副研究员,
+    香港中文大学（深圳）理工学院兼职助理教授." 
     url: https://gaoyuankidult.github.io/
   - image_path: assets/images/people/ChenXi.jpg
     alt: "CHENXi image"
-    title: "Xi Chen"
-    excerpt: "Researcher of Beijing Institute for General Artificial Intelligence(BIGAI)"
-    url: example.html
+    title: "陈曦"
+    excerpt: "北京通用人工智能研究院研究员"
+
   - image_path: assets/images/people/LIQingBiao.jpg
     alt: "LI Qing Biao image"
-    title: "Qingbiao Li"
-    excerpt: "Assistant Professor (PI Independent), Department of Computer Science, University of Macau"
-    url: example.html
+    title: "李庆标"
+    excerpt: "澳门大学计算机系助理教授（独立PI）"
+
   - image_path: assets/images/people/LIANGChen.jpg 
     alt: "LIANG Chen image"
-    title: "Chen Liang"
-    excerpt: "Assistant Professor, Faculty of Science and Technology, University of Macau"
-    url: example.html
+    title: "梁宸"
+    excerpt: "澳门大学科技学院助理教授"
 
   - image_path: assets/images/people/WANGChongYang.jpg 
     alt: "WANG Chongyang image"
-    title: "Chongyang Wang"
-    excerpt: "Assistant researcher, Institute of Rehabilitation Medicine, West China Hospital, Sichuan University"
-    url: example.html
+    title: "王重阳"
+    excerpt: "四川大学华西医院康复医学研究所助理研究员"
+
   - image_path: assets/images/people/ZHANG_Lin.jpg
     alt: "ZHANG Lin image"
-    title: "Lin Zhang"
-    excerpt: "PhD in Computer science, State University of New York, Assistant Professor, Shenzhen University of Technology, co-founder of Symbiosis Unbounded. Former Senior researcher of Digital Economy Research Institute (IDEA) of Guangdong-Hong Kong-Macao Greater Bay Area and former senior researcher of Tencent" 
-    url: example.html
+    title: "张林"
+    excerpt: "纽约州立大学计算机博士，深圳技术大学助理教授，共生无界联合创始人。前粤港澳大湾区数字经济研究院（IDEA）资深研究员、前腾讯高级研究员" 
+
 ---
 
 <!-- About Us -->
@@ -74,21 +76,25 @@ feature_row_people:
 
 <div style="object-fit: cover;" data-kui-anim="fadeIn">
 
-<h1 class = "titleHighlight is-h1">About Us</h1>
+<h1 class = "titleHighlight is-h1">关于我们</h1>
 <section class="full-width-container1">
     <div class = "two-columns">
         <div class = "column">
             <div class = "ali">
             <!--Col1 content--->
-                <div class = "is-h2">Societal Heterogenous Multi-Robot System Research Group</div>
-                <div class = "is-h2">@ Shenzhen China</div>
+                <div class = "is-h2">社会化异构多机研究流派</div>
+                <div class = "is-h2">@ 中国 深圳</div>
             </div>
         </div>
         <div class = "column">
             <div class = "ali2">
                 <!--Col12 content--->
-                <div class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
-                </div>
+                <div class = "is-p">社会化异构多机研究流派是一个致力于探索和推进多机器人系统在多样化社会环境中应用的前沿研究组织。我们的组织愿景是成为全球领先的机器人技术研究与创新中心，通过跨学科的合作和深入的社会洞察，推动机器人技术的发展，使其能够更好地服务于人类社会，满足不同文化、经济和环境背景下的需求。</div>
+                <div class = "is-p">本组织的使命是确保这些系统不仅在技术上先进，而且在伦理、法律和社会层面上得到妥善处理。我们致力于研究如何使机器人系统能够在多变的环境中与人类协同工作，提高效率，同时确保安全和可靠性。我们的目标是通过研究和开发，使机器人系统能够更好地理解和适应人类行为和社会规范，从而在医疗保健、教育、灾害响应、环境监测等多个领域发挥关键作用。我们还重视培养下一代机器人技术专家和研究人员，通过教育和培训项目，激发他们对这一领域的热情，并为他们提供必要的工具和知识，以便他们能够在未来的研究和职业生涯中发挥领导作用。</div>
+                
+                <div class = "is-p">    此外，我们认识到，随着机器人技术的发展，必须解决伴随而来的伦理和社会问题。因此，我们致力于与政策制定者、行业领袖和公众合作，制定指导原则和政策，以确保机器人技术的负责任使用，并最大限度地减少对个人隐私和社会结构的潜在负面影响。我们致力于构建一个更加智能、互联和包容的未来，其中机器人技术不仅是工具，更是人类社会不可或缺的伙伴。</div>
+                
+
             </div>
         </div>
     </div>
@@ -98,7 +104,7 @@ feature_row_people:
 <!-- News -->
 
 <section>
-<h1 class="titleHighlight is-h1">Most recent news</h1>
+<h1 class="titleHighlight is-h1">最新动态</h1>
 <div class="grid-container">
     <div class="go212694760 container">
         <div class = "two-columns2">
@@ -106,7 +112,8 @@ feature_row_people:
             <div class = "column">
                 <div class="text-section">
                     <h2 class="is-h2 titleHighlight">October 2024</h2>
-                    <div class="is-p"> “"Embodied Intelligence Socialized Heterogeneous Multi-machine" Roundtable Forum</div>
+                    <div class="is-p"> “具身智能社会化异构多机”
+                    圆桌论坛</div>
                     <div style = "color:#0055ff">
                         <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
                     </div>
@@ -146,24 +153,24 @@ feature_row_people:
 
 <!-- Publications -->
 <section class="full-width-container">
-<h1 class="is-h1 titleHighlight">Most recent publications</h1>
+<h1 class="is-h1 titleHighlight">最新发表</h1>
 {% include feature_row_publications id = "feature_row_publications" type="center-small" %}
 
 </section>
 
 <!-- People -->
 <section>
-<h1 class="is-h1 titleHighlight">People</h1>
+<h1 class="is-h1 titleHighlight">人员</h1>
 {% include feature_row_people_list.html id="feature_row_people" type="left" %}
 
 <p style="text-align: left; color:#012696">
-    <a href="people" class="learn-more-btn is-p">Learn more ➔</a>
+    <a href="_pages/zh/people_zh.md" class="learn-more-btn is-p">了解更多 ➔</a>
 </p>
 
 </section>
 
 <!-- Visiting Address -->
-<h1 class="is-h1 titleHighlight">Visiting address</h1>
+<h1 class="is-h1 titleHighlight">联系地址</h1>
 
 
 <iframe 
@@ -176,7 +183,7 @@ feature_row_people:
 </iframe>
 
 
-2001 Longxiang Boulevard, Longgang District, Shenzhen
+深圳市，龙翔街道，龙翔大道 2001号
  
  
 **Contact person**: TBC

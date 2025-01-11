@@ -2,7 +2,7 @@
 permalink: /contacts/
 title: Contacts
 layout: single
-lang: en
+lang: zh
 ---
 
 <div class = "is-h1 titleHighlight" style = "margin-bottom: 1rem" > Visiting address</div>

@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Social Heterogeneous Multiprocessor Research Group"
+title                    : "Societal Heterogenous Multi-Robot System Research Group"
 name                     : "Societal Heterogenous Multi-Robot System Research Group"
 description              : "The website of Social Heterogeneous Multiprocessor Research Group"
 url                      : https://myroso-lab.github.io/ # change this to your lab's URL
