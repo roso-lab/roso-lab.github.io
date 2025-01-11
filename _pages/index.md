@@ -5,8 +5,8 @@ layout: splash
 lang: en
 excerpt: The lab is located in Uppsala, Sweden and was founded in 2016 by Ginevra Castellano.
 header:
-    image: assets/images/index/indexTopImg.png
-    image_description: "Group photo of the lab's members"
+    image: assets/images/topImage.png
+    image_description: "Sample image"
 
 feature_row_publications:
   - image_path: assets/images/publications/PepperPose.png
