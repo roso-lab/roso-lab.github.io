@@ -1,0 +1,14 @@
+lang: zh
+main:
+  - title: 项目
+    url: /zh/projects_zh/
+  - title: 团队
+    url: /zh/people_zh/
+  - title: 论文
+    url: /zh/publications_zh/
+  - title: 教学
+    url: /zh/teachings_zh/
+  - title: 艺术
+    url: /zh/Art_zh/
+  - title: 联系方式
+    url: /zh/contacts_zh/

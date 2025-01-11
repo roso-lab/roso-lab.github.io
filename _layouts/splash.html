@@ -10,13 +10,13 @@ layout: default
 <!-- <link rel="stylesheet" href="assets/css/scrollanim.css">
 <script src="assets/js/scrollanim.js"></script>     -->
 
-<head >
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body> 
+<body lang="{{ page.lang }}" id = "top"> 
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
@@ -30,4 +30,20 @@ layout: default
     </section>
   </article>
 </div>
+
+<!-- 返回顶部和语言切换按钮 -->
+<div class="floating-buttons">
+  <a href="#top" class="scroll-to-top" title="Back to Top">
+    <span>&uarr;</span>
+  </a>
+
+  <!-- 中英文切换 -->
+  {% if page.lang == 'en' %}
+    <a href="/zh/index_zh/" class="language-toggle" title="Switch to Chinese">中</a>
+    
+  {% else %}
+    <a href="/" class="language-toggle" title="Switch to English">en</a>
+  {% endif %}
+</div>
+
 </body>

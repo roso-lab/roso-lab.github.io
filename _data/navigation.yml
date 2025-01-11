@@ -1,3 +1,4 @@
+lang: en
 # main links
 main:
   - title: Projects
@@ -20,8 +21,4 @@ main:
 
   - title: Contacts
     url: contacts/
-    
-  # - title: Very old news
-  #   url: old_news/
-  - title: 中文
-    url: zh/
+  

@@ -32,7 +32,7 @@
           {% endif %}
         
           {% if f.url %}
-            <a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}" style="font-family: fantasy; bottom: 10px; right: 10px; color: #012696;">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p {{ f.btn_class }}" style="bottom: 10px; right: 10px;">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More➔" }}</a>
           {% endif %}
         </div>
 
