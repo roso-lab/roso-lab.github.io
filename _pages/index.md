@@ -105,9 +105,10 @@ feature_row_people:
             <div class = "column">
                 <div class="text-section">
                     <h2 class="is-h2 titleHighlight">October 2024</h2>
-                    <div class="is-p"> “具身智能社会化异构多机”
-                    圆桌论坛</div>
-                    <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
+                    <div class="is-p"> “"Embodied Intelligence Socialized Heterogeneous Multi-machine" Roundtable Forum</div>
+                    <div style = "color:#0055ff">
+                        <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
+                    </div>
                 </div>
             </div>
             <!--Col12 content--->
@@ -124,7 +125,9 @@ feature_row_people:
                     <h2 class="is-h2 titleHighlight">November 2022</h2>
                     <div class="is-p">Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
                     </div>
-                    <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
+                    <div style = "color:#0055ff">
+                        <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
+                    </div>
                 </div>
             </div>
             <!--Col12 content--->
@@ -134,9 +137,9 @@ feature_row_people:
         </div>
     </div>
 </div>
-<p style="text-align: left;">
+<!-- <p style="text-align: left;">
     <a href="old_news" class="btn btn--inverse"><span class = "is-h4 titleHighlight">Older news ➔</span></a>
-</p>
+</p> -->
 
 </section>
 
