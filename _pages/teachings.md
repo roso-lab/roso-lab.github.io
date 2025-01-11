@@ -11,17 +11,11 @@ excerpt: "We also place emphasis on nurturing the next generation of robotics ex
 
 feature_row:
   - image_path: "/assets/images/teachings/iis.jfif"
-    title: "Intelligent Interactive Systems (5/7.5 hp)"
-    excerpt: "This course will provide an overview of computational techniques for intelligent, embodied interactive systems, including approaches for perception (e.g., vision and other modalities of perception), Sample course"
-    url: https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1MD032&typ=1
-  - image_path: "/assets/images/teachings/social_robotics.jpg"
-    title: "Social robotics (7.5 hp)"
-    excerpt: "This course will provide an overview of the science and technology of human-robot interaction; theories and methods for the design and evaluation of robots interacting with human users;"
-    url: https://www.uu.se/en/admissions/freestanding-courses/course/?kKod=1MD300&typ=1
-  - image_path: "/assets/images/teachings/trustworthy_ai.jpg"
-    title: "Social Consequences of Technology and Trustworthy AI (3 hp per semester)"
-    excerpt: "This PhD course focuses on understanding how different technologies are deployed in our lives and their impact on individuals and society."
-
+    title: "[Sample]Intelligent Interactive Systems"
+    excerpt: "[Sample]This course will provide an overview of computational techniques for intelligent, embodied interactive systems, including approaches for perception."
+    url: https://example.com
+  - image_path: /assets/images/publications/MoreOnTheRoad.png
+    title:  "More on the road..."
 
 ---
 
