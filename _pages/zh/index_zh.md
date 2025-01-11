@@ -40,6 +40,7 @@ feature_row_people:
     AIRS智能机器人中心副研究员,
     香港中文大学（深圳）理工学院兼职助理教授." 
     url: https://gaoyuankidult.github.io/
+    btn_label: "了解更多"
   - image_path: assets/images/people/ChenXi.jpg
     alt: "CHENXi image"
     title: "陈曦"
@@ -83,7 +84,7 @@ feature_row_people:
             <div class = "ali">
             <!--Col1 content--->
                 <div class = "is-h2">社会化异构多机研究流派</div>
-                <div class = "is-h2">@ 中国 深圳</div>
+                <div class = "is-h1">@ 中国 深圳</div>
             </div>
         </div>
         <div class = "column">
@@ -94,7 +95,6 @@ feature_row_people:
                 
                 <div class = "is-p">    此外，我们认识到，随着机器人技术的发展，必须解决伴随而来的伦理和社会问题。因此，我们致力于与政策制定者、行业领袖和公众合作，制定指导原则和政策，以确保机器人技术的负责任使用，并最大限度地减少对个人隐私和社会结构的潜在负面影响。我们致力于构建一个更加智能、互联和包容的未来，其中机器人技术不仅是工具，更是人类社会不可或缺的伙伴。</div>
                 
-
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@ feature_row_people:
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="is-h2 titleHighlight">October 2024</h2>
+                    <div class="is-h2 titleHighlight">2024年10月</div>
                     <div class="is-p"> “具身智能社会化异构多机”
                     圆桌论坛</div>
                     <div style = "color:#0055ff">
@@ -130,8 +130,8 @@ feature_row_people:
             <!--Col1 content--->
             <div class = "column">
                 <div class="text-section">
-                    <h2 class="is-h2 titleHighlight">November 2022</h2>
-                    <div class="is-p">Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
+                    <div class="is-h2 titleHighlight">2022年11月</div>
+                    <div class="is-p">Katie Winkle被授予了 <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
                     </div>
                     <div style = "color:#0055ff">
                         <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
@@ -170,7 +170,7 @@ feature_row_people:
 </section>
 
 <!-- Visiting Address -->
-<h1 class="is-h1 titleHighlight">联系地址</h1>
+<h1 class="is-h1 titleHighlight">联系我们</h1>
 
 
 <iframe 
@@ -182,8 +182,6 @@ feature_row_people:
     referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 
-
-深圳市，龙翔街道，龙翔大道 2001号
+深圳市龙岗区龙翔大道2001号
  
- 
-**Contact person**: TBC
+**联系人**: TBC

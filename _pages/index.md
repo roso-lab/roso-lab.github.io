@@ -37,6 +37,7 @@ feature_row_people:
     title: "Yuan Gao"
     excerpt: "Head of the Research Direction of the Embodied AI Robotics Innovation Center of Guangdong Province, Associate Researcher of AIRS Intelligent Robot Center, Adjunct Assistant Professor of School of Science and Engineering in CUHKSZ." 
     url: https://gaoyuankidult.github.io/
+
   - image_path: assets/images/people/ChenXi.jpg
     alt: "CHENXi image"
     title: "Xi Chen"
