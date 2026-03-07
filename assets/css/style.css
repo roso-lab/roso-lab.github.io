@@ -16,15 +16,30 @@
 } 
 
 .full-width-container1 {
-  width: 100%; /* 100视口宽度单位 */
-  height: 50vh;
-  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  background: linear-gradient(180deg, #ffffff 0%, #f8faf9 100%);
+  /* 添加微妙的装饰图案 */
+  position: relative;
+}
+
+.full-width-container1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 20% 80%, rgba(164, 226, 198, 0.15) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 20%, rgba(1, 38, 150, 0.08) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .full-width-container2 {
-  width: 100%; /* 100视口宽度单位 */
+  width: 100%;
   height: 80vh;
-  background-color: #ffffff;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f9f7 100%);
 }
 
 .ali{
@@ -56,7 +71,28 @@ a:visited {
   color: #f4bb6e
 }
 .titleHighlight {
-  color: #012696
+  color: #012696;
+  /* 添加微妙的下划线装饰 */
+  position: relative;
+  display: inline-block;
+}
+
+.titleHighlight::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #a4e2c6, #012696, #a4e2c6);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.titleHighlight:hover::after {
+  transform: scaleX(1);
 }
 
 .greenHighlight {
@@ -120,10 +156,12 @@ a:visited {
 }
 .grid-container {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; 创建两列网格，每列各占 50% */
-  grid-template-columns: repeat(12, minmax(0px, 1fr));  width: 100%; /* 根据需要调整整体宽度 */
-  padding: 20px;
-  gap: 24px;
+  grid-template-columns: repeat(12, minmax(0px, 1fr));
+  width: 100%;
+  padding: 40px;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 /* .go212694760 {
   grid-column: 1 / -1;
@@ -149,22 +187,41 @@ box-sizing: border-box;
 .container {
   display: flex;
   align-items: center;
-  background-color: #a4e2c6;
-  padding: 20px;
-  /* max-width: 600px;
-  min-width: 550px; */
+  /* 艺术渐变背景 */
+  background: linear-gradient(135deg, #a4e2c6 0%, #c8f0dc 50%, #d4f5e9 100%);
+  padding: 25px;
   min-height: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  /* 柔和阴影 */
+  box-shadow: 0 10px 40px rgba(164, 226, 198, 0.4),
+              0 0 0 1px rgba(255, 255, 255, 0.5) inset;
   position: relative;
   overflow: hidden;
   flex-direction: row;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* 卡片悬浮时的艺术光效 */
+.container::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 60px rgba(164, 226, 198, 0.5),
+              0 0 30px rgba(164, 226, 198, 0.3);
+}
+
+.container:hover::before {
+  opacity: 1;
 }
 
 .text-section {
@@ -188,23 +245,27 @@ box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #0055ff;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #012696;
   border-radius: 50%;
-  color: #0055ff;
+  color: #012696;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  /* 渐变和阴影 */
+  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
+  box-shadow: 0 4px 15px rgba(1, 38, 150, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .button:hover {
-  background-color: #0055ff;
+  background: linear-gradient(135deg, #012696 0%, #4a6fd9 100%);
   color: white;
-  transform: scale(1.1);
+  transform: scale(1.15) rotate(5deg);
+  box-shadow: 0 8px 25px rgba(1, 38, 150, 0.4);
 }
 .image-section {
   font-size: 8rem;
@@ -219,26 +280,55 @@ box-sizing: border-box;
 }
 
 
+/* ===== 现代渐变风 + 艺术美化 ===== */
+
+/* 全局字体优化 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2f6 100%);
+  min-height: 100vh;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 全局链接样式 */
+a {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+  color: #012696;
+}
+
+/* 导航栏美化 */
 .masthead {
-  background-color: #a4e2c6;
-  border-bottom: 1px solid #a4e2c6;
+  background: linear-gradient(90deg, #a4e2c6 0%, #c8f0dc 50%, #a4e2c6 100%);
+  border-bottom: 1px solid rgba(1, 38, 150, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(164, 226, 198, 0.3);
 }
 
 .greedy-nav{
-  background: #a4e2c6;
+  background: transparent;
 }
 
 .greedy-nav a{
   color: #012696;
   text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
 }
 
 .greedy-nav .visible-links a:before {
-  background: #012696;
+  background: linear-gradient(90deg, #012696, #4a6fd9);
+  height: 3px;
+  border-radius: 2px;
 }
 
 .greedy-nav .visible-links a:hover {
-  color: #012696;
+  color: #4a6fd9;
 }
 
 .archive_item-body {
@@ -248,16 +338,31 @@ box-sizing: border-box;
 
 .accordion details {
   margin-bottom: 1rem;
-  border: 1px solid #a4e2c6;
-  border-radius: 5px;
+  border: 1px solid rgba(164, 226, 198, 0.5);
+  border-radius: 12px;
   padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.accordion details:hover {
+  border-color: #a4e2c6;
+  box-shadow: 0 4px 20px rgba(164, 226, 198, 0.3);
 }
 
 .accordion details summary {
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  color:#012696;
-  background-color: #a4e2c6;
+  color: #012696;
+  background: linear-gradient(135deg, #a4e2c6 0%, #c8f0dc 100%);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.accordion details summary:hover {
+  background: linear-gradient(135deg, #c8f0dc 0%, #a4e2c6 100%);
 }
 
 .accordion .details-content {
@@ -279,30 +384,41 @@ box-sizing: border-box;
 .project-container{
   display: flex;
   align-items: center;
-  background-color: white;
-  padding: 20px;
-  /* max-width: 600px;
-  min-width: 550px; */
-  min-height: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(164, 226, 198, 0.3);
+  padding: 30px;
+  min-height: 280px;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
   position: relative;
   overflow: hidden;
   flex-direction: row;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .project-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 50px rgba(1, 38, 150, 0.12),
+              0 0 30px rgba(164, 226, 198, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(164, 226, 198, 0.5);
 }
 
 .container1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  /* padding: 50px; */
+  gap: 30px;
+  width: 100%;
+}
+
+.image-section1 {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
 }
 
 .image-section1 {
@@ -315,7 +431,17 @@ box-sizing: border-box;
 .image-section1 img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px; /* Optional: Adds rounded corners */
+  border-radius: 16px;
+  /* 添加艺术边框效果 */
+  box-shadow: 0 8px 32px rgba(1, 38, 150, 0.15),
+              0 0 0 1px rgba(164, 226, 198, 0.3) inset;
+  transition: all 0.4s ease;
+}
+
+.image-section1 img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 40px rgba(1, 38, 150, 0.25),
+              0 0 20px rgba(164, 226, 198, 0.4);
 }
 
 .text-section1 {
@@ -324,33 +450,55 @@ box-sizing: border-box;
   max-height: 300px;
 }
 
+/* 卡片内文字样式优化 */
+.text-section1 {
+  flex: 1;
+  max-width: 500px;
+  max-height: 300px;
+  padding: 0 15px;
+}
+
 .text-section1 h1 {
-  color: #012696; /* Matches the blue text color */
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  color: #012696;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.4;
 }
 
 .text-section1 p {
-  font-size: 0.7rem;
-  color: #333; /* Darker text for contrast */
-  line-height: 1.5;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
   margin-bottom: 15px;
+}
+
+/* Learn More 按钮居中 */
+.text-section1 > div[style*="text-align"] {
+  text-align: center !important;
+  margin-top: 15px;
 }
 
 .learn-more-btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 14px 28px;
   border: 2px solid #012696;
   color: #012696;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: all 0.3s ease;
+  font-weight: 600;
+  border-radius: 50px;
+  /* 渐变背景 */
+  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(164, 226, 198, 0.3) 100%);
+  box-shadow: 0 4px 15px rgba(1, 38, 150, 0.15);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  letter-spacing: 0.5px;
 }
 
 .learn-more-btn:hover {
-  background-color: #012696;
+  background: linear-gradient(135deg, #012696 0%, #4a6fd9 100%);
   color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(1, 38, 150, 0.35);
 }
 
 .feature__item--left a.btn::before {
@@ -407,11 +555,11 @@ box-sizing: border-box;
   bottom: 20px; /* 控制语言切换按钮的位置 */
 }
 
-/* 页面加载动画 */
+/* ===== 页面加载动画增强 ===== */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
@@ -428,6 +576,26 @@ box-sizing: border-box;
   }
 }
 
+/* 浮动动画 - 增加艺术感 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* 闪光效果 */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 [data-kui-anim="fadeIn"] {
   animation: fadeIn 0.8s ease-out forwards;
 }
@@ -441,6 +609,7 @@ box-sizing: border-box;
 .delay-2 { animation-delay: 0.2s; }
 .delay-3 { animation-delay: 0.3s; }
 .delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
 
 /* 链接hover效果 */
 a {
@@ -480,13 +649,13 @@ a:hover {
   .full-width-container1 {
     height: auto;
     min-height: 50vh;
-    padding: 20px;
+    padding: 30px 20px;
   }
 
   .grid-container {
     grid-template-columns: 1fr;
-    padding: 15px;
-    gap: 16px;
+    padding: 20px;
+    gap: 20px;
   }
 
   .go212694760 {
@@ -496,7 +665,8 @@ a:hover {
   .container {
     flex-direction: column;
     min-height: auto;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 16px;
   }
 
   .text-section {
@@ -516,6 +686,8 @@ a:hover {
   .project-container {
     flex-direction: column;
     min-height: auto;
+    padding: 20px;
+    border-radius: 16px;
   }
 
   .container1 {
@@ -523,11 +695,11 @@ a:hover {
   }
 
   .is-h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .is-h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .is-p {
@@ -540,7 +712,7 @@ a:hover {
 
   /* 移动端导航优化 */
   .greedy-nav {
-    padding: 10px;
+    padding: 12px;
   }
 
   .masthead {

@@ -10,7 +10,7 @@
       <div class="container1">
         {% if f.image_path %}
         <div class="image-section1" >
-            <img src="{{ f.image_path }}" alt="Blue spiral pattern " style="width: 30em; height: 5em;">
+            <img src="{{ f.image_path }}" alt="{{ f.title }}" style="width: 100%; max-width: 280px; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 12px;">
         </div>
         {% endif %}
 
