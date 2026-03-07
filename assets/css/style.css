@@ -87,31 +87,31 @@ a:visited {
 
 .is-h1 {
   /* font-size: 38px; */
-  font-size: 38px;
-  line-height: 1.2;
+  font-size: 32px;
+  line-height: 1.3;
 }
 
 .is-h2 {
   /* font-size: 38px; */
-  font-size: 40px;
-  line-height: 1.2;
+  font-size: 26px;
+  line-height: 1.3;
 }
 
 .is-h3 {
   /* font-size: 38px; */
-  font-size: 22px;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.3;
 }
 
 .is-h4 {
   /* font-size: 38px; */
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 .is-p {
-  font-size: 0.7rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .is-title{
@@ -159,6 +159,12 @@ box-sizing: border-box;
   position: relative;
   overflow: hidden;
   flex-direction: row;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .text-section {
@@ -192,6 +198,13 @@ box-sizing: border-box;
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0055ff;
+  color: white;
+  transform: scale(1.1);
 }
 .image-section {
   font-size: 8rem;
@@ -276,6 +289,12 @@ box-sizing: border-box;
   position: relative;
   overflow: hidden;
   flex-direction: row;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .container1 {
@@ -386,6 +405,176 @@ box-sizing: border-box;
 
 .language-toggle {
   bottom: 20px; /* 控制语言切换按钮的位置 */
+}
+
+/* 页面加载动画 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+[data-kui-anim="fadeIn"] {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* 交错动画延迟 */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* 链接hover效果 */
+a {
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+a:hover {
+  color: #012696;
+  opacity: 0.8;
+}
+
+/* 卡片内图片圆角和hover效果 */
+.container img,
+.project-container img,
+.feature__item img {
+  transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+.container:hover img,
+.project-container:hover img {
+  transform: scale(1.02);
+  border-radius: 12px;
+}
+
+/* 移动端响应式样式 */
+@media screen and (max-width: 768px) {
+  .two-columns {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .two-columns > .column {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .full-width-container1 {
+    height: auto;
+    min-height: 50vh;
+    padding: 20px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 16px;
+  }
+
+  .go212694760 {
+    grid-column: span 1;
+  }
+
+  .container {
+    flex-direction: column;
+    min-height: auto;
+    padding: 15px;
+  }
+
+  .text-section {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .image-section {
+    position: relative;
+    right: auto;
+    top: auto;
+    font-size: 4rem;
+    transform: none;
+    opacity: 0.2;
+  }
+
+  .project-container {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .container1 {
+    flex-direction: column;
+  }
+
+  .is-h1 {
+    font-size: 26px;
+  }
+
+  .is-h2 {
+    font-size: 22px;
+  }
+
+  .is-p {
+    font-size: 0.95rem;
+  }
+
+  .text-section1 {
+    max-width: 100%;
+  }
+
+  /* 移动端导航优化 */
+  .greedy-nav {
+    padding: 10px;
+  }
+
+  .masthead {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .is-h1 {
+    font-size: 22px;
+  }
+
+  .is-h2 {
+    font-size: 18px;
+  }
+
+  .is-h3 {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 12px;
+  }
+
+  .button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+  }
+
+  .learn-more-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
 }
 
 
