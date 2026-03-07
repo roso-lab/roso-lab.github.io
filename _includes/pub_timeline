@@ -1,0 +1,55 @@
+{% assign pub_years = page.publications_by_year %}
+
+<div class="pub-tl">
+  {% for yg in pub_years %}
+    {% assign paper_count = yg.papers | size %}
+    <div class="pub-tl-year" data-year="{{ yg.year }}">
+      <div class="pub-tl-year-header" onclick="togglePubYear(this)">
+        <span class="pub-tl-dot"></span>
+        <span class="pub-tl-label">{{ yg.year }}</span>
+        <span class="pub-tl-count">{% if paper_count == 1 %}1 paper{% else %}{{ paper_count }} papers{% endif %}</span>
+        <span class="pub-tl-toggle">EXPAND</span>
+      </div>
+      <div class="pub-tl-items collapsed">
+        {% for p in yg.papers %}
+          <div class="pub-tl-item">
+            <div class="pub-tl-thumb">
+              {% if p.image %}
+                <img src="{{ p.image | relative_url }}" alt="">
+              {% else %}
+                <div class="pub-tl-thumb-placeholder"></div>
+              {% endif %}
+            </div>
+            <div class="pub-tl-info">
+              <div class="pub-tl-title">{{ p.title }}</div>
+              {% if p.authors %}
+                <div class="pub-tl-authors">
+                  {% if p.self_author %}
+                    {% capture author_hl %}<strong class="pub-tl-self">{{ p.self_author }}</strong>{% endcapture %}
+                    {{ p.authors | replace: p.self_author, author_hl }}
+                  {% else %}
+                    {{ p.authors }}
+                  {% endif %}
+                </div>
+              {% endif %}
+              {% if p.venue %}
+                <div class="pub-tl-venue">{{ p.venue }}</div>
+              {% endif %}
+              <div class="pub-tl-links">
+                {% if p.pdf %}
+                  <a class="pub-tl-btn" href="{{ p.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>
+                {% endif %}
+                {% if p.code %}
+                  <a class="pub-tl-btn" href="{{ p.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+                {% endif %}
+                {% if p.video %}
+                  <a class="pub-tl-btn" href="{{ p.video }}" target="_blank" rel="noopener noreferrer">Video</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

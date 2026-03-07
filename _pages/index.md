@@ -1,18 +1,19 @@
 ---
+title: "ROSO Lab"
 permalink: /
 last_modified_at: 2025-1-11
 layout: splash
 lang: en
-excerpt: The Social Heterogeneous Multimachine Research School is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments.
 header:
-    image: assets/images/topImage.png
-    image_description: "Sample image"
+  overlay_image: assets/images/robo_and_human_single_color.png
+  overlay_filter: "0.55"
+excerpt: "Bridging Heterogeneous Multi-Robot Intelligence with Human Society — Pioneering Collaborative Autonomy for Complex, Real-World Environments"
 
 feature_row_publications:
   - image_path: assets/images/publications/PepperPose.png
     alt: "Publication image"
-    paper: "PepperPose: Full-Body Pose Estimation with a Companion Robot, CHI'24, Chongyang Wang，Yuan Gao，Chun Yu"
-    venue: "*CHI'24*"
+    paper: "PepperPose: Full-Body Pose Estimation with a Companion Robot"
+    venue: "CHI'24"
     url: "https://dl.acm.org/doi/pdf/10.1145/3613904.3642231"
     members:
         - name: "WANGChongYang"
@@ -25,158 +26,81 @@ feature_row_publications:
     url: "https://dl.acm.org/doi/pdf/10.1145/3643552"
     members:
         - name: "WANGChongYang"
-        # - name: "Chun Yu"
-  - image_path: assets/images/publications/MoreOnTheRoad.png
-    alt: "Publication TBC"
-    paper: "More publications are on the road..."
-    venue: "N/A"
 
 feature_row_people:
   - image_path: assets/images/people/GaoYuan.jpg
-    alt: "GAOYuan image"
+    alt: "Yuan Gao"
     title: "Yuan Gao"
-    excerpt: "Head of the Research Direction of the Embodied AI Robotics Innovation Center of Guangdong Province, Associate Researcher of AIRS Intelligent Robot Center, Adjunct Assistant Professor of School of Science and Engineering in CUHKSZ." 
+    excerpt: "Head of Embodied AI Robotics, AIRS & CUHK-SZ"
     url: https://gaoyuankidult.github.io/
   - image_path: assets/images/people/ChenXi.jpg
-    alt: "CHENXi image"
+    alt: "Xi Chen"
     title: "Xi Chen"
-    excerpt: "Researcher of Beijing Institute for General Artificial Intelligence(BIGAI)"
-    url: example.html
+    excerpt: "Researcher, Beijing Institute for General AI"
   - image_path: assets/images/people/LIQingBiao.jpg
-    alt: "LI Qing Biao image"
+    alt: "Qingbiao Li"
     title: "Qingbiao Li"
-    excerpt: "Assistant Professor (PI Independent), Department of Computer Science, University of Macau"
-    url: example.html
-  - image_path: assets/images/people/LIANGChen.jpg 
-    alt: "LIANG Chen image"
+    excerpt: "Assistant Professor, University of Macau"
+  - image_path: assets/images/people/LIANGChen.jpg
+    alt: "Chen Liang"
     title: "Chen Liang"
-    excerpt: "Assistant Professor, Faculty of Science and Technology, University of Macau"
-    url: example.html
-
-  - image_path: assets/images/people/WANGChongYang.jpg 
-    alt: "WANG Chongyang image"
+    excerpt: "Assistant Professor, University of Macau"
+  - image_path: assets/images/people/WANGChongYang.jpg
+    alt: "Chongyang Wang"
     title: "Chongyang Wang"
-    excerpt: "Assistant researcher, Institute of Rehabilitation Medicine, West China Hospital, Sichuan University"
-    url: example.html
+    excerpt: "Assistant Researcher, West China Hospital"
   - image_path: assets/images/people/ZHANG_Lin.jpg
-    alt: "ZHANG Lin image"
+    alt: "Lin Zhang"
     title: "Lin Zhang"
-    excerpt: "PhD in Computer science, State University of New York, Assistant Professor, Shenzhen University of Technology, co-founder of Symbiosis Unbounded. Former Senior researcher of Digital Economy Research Institute (IDEA) of Guangdong-Hong Kong-Macao Greater Bay Area and former senior researcher of Tencent" 
-    url: example.html
+    excerpt: "Assistant Professor, Shenzhen University of Technology"
 ---
 
 <!-- About Us -->
-<!-- Visiter count model-->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv">
-	You are the <span id="busuanzi_value_site_pv"></span>th visitor of this website
-</span> -->
+<section class="about-section" style="background: var(--gray-100);">
+  <h2 class="section-title">About Us</h2>
+  <p class="about-text">
+    The <strong>ROSO Lab</strong> (Societal Heterogeneous Multi-Robot System Research Group) is an interdisciplinary research collective that investigates how teams of diverse robots — spanning aerial, ground, and humanoid platforms — can operate cohesively within complex human environments. Our work sits at the intersection of <em>multi-agent coordination</em>, <em>embodied AI</em>, and <em>human-robot interaction</em>, addressing fundamental challenges in distributed perception, decentralized decision-making, and socially-aware autonomy.
+  </p>
+  <p class="about-text" style="margin-top: 1rem;">
+    We collaborate closely with partners across robotics, computer science, cognitive science, and healthcare to translate theoretical advances into deployable systems — from assistive companion robots in clinical settings to large-scale multi-robot coordination in urban logistics and smart infrastructure. Our vision is to build intelligent multi-robot ecosystems that seamlessly integrate into the fabric of everyday life, enhancing safety, efficiency, and quality of human experience.
+  </p>
+</section>
 
-<div style="object-fit: cover;" data-kui-anim="fadeIn">
-
-<h1 class = "titleHighlight is-h1">About Us</h1>
-<section class="full-width-container1">
-    <div class = "two-columns">
-        <div class = "column">
-            <div class = "ali">
-            <!--Col1 content--->
-                <div class = "is-h2">Societal Heterogenous Multi-Robot System Research Group</div>
-                <div class = "is-h2">@ Shenzhen China</div>
-            </div>
-        </div>
-        <div class = "column">
-            <div class = "ali2">
-                <!--Col12 content--->
-                <div class = "is-p">The Societal Heterogenous Multi-Robot System Research Group is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments. Our organizational vision is to be a leading global center for robotics research and innovation, advancing robotics through collaboration across disciplines and deep societal insights so that it can better serve human society and meet the needs of diverse cultural, economic and environmental contexts.
-                </div>
-            </div>
-        </div>
+<!-- Recent News -->
+<section class="section-spacing">
+  <div class="container-wide">
+    <h2 class="section-title">Recent News</h2>
+    <div class="news-grid">
+      <div class="news-card">
+        <span class="tag">Oct 2024</span>
+        <h3>Embodied Intelligence Roundtable Forum</h3>
+        <p>"Embodied Intelligence Socialized Heterogeneous Multi-machine" Roundtable Forum successfully held.</p>
+        <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="news-link">Read more &rarr;</a>
+      </div>
+      <div class="news-card">
+        <span class="tag">Nov 2022</span>
+        <h3>Jacobs Foundation Research Fellowship</h3>
+        <p>Katie Winkle was granted the Jacobs Foundation Research Fellowship!</p>
+        <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="news-link">Read more &rarr;</a>
+      </div>
     </div>
-</section>
-</div>
-
-<!-- News -->
-
-<section>
-<h1 class="titleHighlight is-h1">Most recent news</h1>
-<div class="grid-container">
-    <div class="go212694760 container">
-        <div class = "two-columns2">
-            <!--Col1 content--->
-            <div class = "column">
-                <div class="text-section">
-                    <h2 class="is-h2 titleHighlight">October 2024</h2>
-                    <div class="is-p"> “"Embodied Intelligence Socialized Heterogeneous Multi-machine" Roundtable Forum</div>
-                    <div style = "color:#0055ff">
-                        <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="button">➔</a>
-                    </div>
-                </div>
-            </div>
-            <!--Col12 content--->
-            <div class = "column">
-                <div class="image-section">HRI</div>
-            </div>
-        </div>
-    </div>
-    <div class="go212694760 container">
-        <div class = "two-columns2">
-            <!--Col1 content--->
-            <div class = "column">
-                <div class="text-section">
-                    <h2 class="is-h2 titleHighlight">November 2022</h2>
-                    <div class="is-p">Katie Winkle was granted the <span class = "titleHighlight">Jacobs Foundation Research Fellowship</span>!
-                    </div>
-                    <div style = "color:#0055ff">
-                        <a href="https://jacobsfoundation.org/activity/jacobs-foundation-research-fellowship-program/" target="_blank" class="button">➔</a>
-                    </div>
-                </div>
-            </div>
-            <!--Col12 content--->
-            <div class = "column">
-                <div class="image-section">2022</div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- <p style="text-align: left;">
-    <a href="old_news" class="btn btn--inverse"><span class = "is-h4 titleHighlight">Older news ➔</span></a>
-</p> -->
-
+  </div>
 </section>
 
-<!-- Publications -->
-<section class="full-width-container">
-<h1 class="is-h1 titleHighlight">Most recent publications</h1>
-{% include feature_row_publications id = "feature_row_publications" type="center-small" %}
-
+<!-- Selected Publications -->
+<section class="section-spacing" style="background: var(--brand-green-pale);">
+  <div class="container-wide">
+    <h2 class="section-title">Selected Publications</h2>
+    {% include feature_row_publications id="feature_row_publications" type="center-small" %}
+    <a href="/publications/" class="section-link">View all publications &rarr;</a>
+  </div>
 </section>
 
-<!-- People -->
-<section>
-<h1 class="is-h1 titleHighlight">People</h1>
-{% include feature_row_people_list.html id="feature_row_people" type="left" %}
-
-<p style="text-align: left; color:#012696">
-    <a href="people" class="learn-more-btn is-p">Learn more ➔</a>
-</p>
-
+<!-- Team -->
+<section class="section-spacing" style="background: var(--gray-100);">
+  <div class="container-wide">
+    <h2 class="section-title">Our Team</h2>
+    {% include feature_row_people_list.html id="feature_row_people" %}
+    <a href="/people/" class="section-link">Meet the full team &rarr;</a>
+  </div>
 </section>
-
-<!-- Visiting Address -->
-<h1 class="is-h1 titleHighlight">Visiting address</h1>
-
-
-<iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.0857935578856!2d114.20735607463354!3d22.68784992873768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404769e8e03db83%3A0x72bee586ac015803!2z6aaZ5riv5Lit5paH5aSn5a2477yI5rex5Zyz77yJ!5e0!3m2!1szh-TW!2sus!4v1732289628271!5m2!1szh-TW!2sus" width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-
-
-2001 Longxiang Boulevard, Longgang District, Shenzhen
- 
- 
-**Contact person**: TBC

@@ -4,55 +4,36 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature__wrapper">
-
+<div class="pub-list">
   {% for f in feature_row %}
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-        {% if f.image_path %}
-          <div class="archive__item-teaser">
-            <img style="object-fit: cover; object-position: center; height: 300px; width: 400px; border-radius: 5px;"
-                 src="{{ f.image_path | relative_url }}"
-                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
-          </div>
+    <div class="pub-card">
+      {% if f.image_path %}
+        <img class="pub-card__image" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+      {% endif %}
+
+      <div class="pub-card__body">
+        {% if f.paper %}
+          <div class="pub-card__title">{{ f.paper }}</div>
         {% endif %}
 
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
-
-          {% if f.paper %}
-            <div class = "is-p">
-              {{ f.paper | markdownify }}
-            </div>
-          {% endif %}
-
+        <div class="pub-card__meta">
           {% if f.venue %}
-            <div class = "is-p">
-              {{ f.venue | markdownify }}
-            </div>
-          {% endif %}
-          
-          {% if f.excerpt %}
-            <div class = "is-p">
-              {{ f.excerpt | markdownify }}
-            </div>
+            <span class="tag">{{ f.venue | strip_html }}</span>
           {% endif %}
 
-          {% for m in f.members %}
-            <img style="object-fit: cover; object-position: top; height: 50px; width: 50px; border-radius: 50px;" src="/assets/images/people/{{ m.name | relative_url }}.jpg">
-          {% endfor %}
+          {% if f.members %}
+            <div class="pub-card__authors">
+              {% for m in f.members %}
+                <img src="/assets/images/people/{{ m.name }}.jpg" alt="{{ m.name }}">
+              {% endfor %}
+            </div>
+          {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }} is-p">{{ f.btn_label | default: "Go to paper" }}</a></p>
+            <a href="{{ f.url | relative_url }}" class="pub-card__link">PDF &rarr;</a>
           {% endif %}
         </div>
       </div>
     </div>
   {% endfor %}
-
 </div>

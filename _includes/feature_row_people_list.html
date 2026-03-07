@@ -4,40 +4,26 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature__wrapper">
-
+<div class="team-grid">
   {% for f in feature_row %}
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item" style="float: none;">
-        {% if f.image_path %}
-          <div class="archive__item-teaser">
-            <img style="object-fit: cover; object-position: center; height: 200px; width: 150px; border-radius: 5px;"
-                 src="{{ f.image_path | relative_url }}"
-                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
-          </div>
-        {% endif %}
-
-        <div class="archive__item-body" style="background-color: #a4e2c6; border-radius: 10px;">
-          {% if f.title %}
-            <h2 class="archive__item-title" style="font-size: 1.2em; color: #012696;">{{ f.title }}</h2>
-          {% endif %}
-
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
-            </div>
-          {% endif %}
-        
-          {% if f.url %}
-            <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p {{ f.btn_class }}" style="bottom: 10px; right: 10px;">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More➔" }}</a>
-          {% endif %}
-        </div>
-
-      </div>
+    {% if f.url %}
+    <a href="{{ f.url | relative_url }}" target="_blank" rel="noopener noreferrer" class="team-member" style="text-decoration: none; color: inherit;">
+    {% else %}
+    <div class="team-member">
+    {% endif %}
+      {% if f.image_path %}
+        <img class="team-member__avatar" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+      {% endif %}
+      {% if f.title %}
+        <div class="team-member__name">{{ f.title }}</div>
+      {% endif %}
+      {% if f.excerpt %}
+        <p class="team-member__role">{{ f.excerpt | strip_html | truncate: 80 }}</p>
+      {% endif %}
+    {% if f.url %}
+    </a>
+    {% else %}
     </div>
+    {% endif %}
   {% endfor %}
-
 </div>

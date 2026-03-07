@@ -6,7 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-remote_theme           : "mmistakes/minimal-mistakes"
+# remote_theme           : "mmistakes/minimal-mistakes"
+theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -17,8 +18,8 @@ description              : "The website of Social Heterogeneous Multiprocessor R
 url                      : https://myroso-lab.github.io/ # change this to your lab's URL
 repository               : roso-lab/roso-lab.github.io # change this to your lab's repository
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "assets/images/logo_eng_chn.png" # change this to your lab's logo
-masthead_title           : " "
+logo                     : "assets/images/logo_icon.png"
+masthead_title           : "ROSO Lab"
 
 # Collections
 collections:

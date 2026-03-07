@@ -4,32 +4,28 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="grid-container">
+<div class="projects-list">
   {% for f in feature_row %}
-    <div class="go212694760 project-container">
-      <div class="container1">
-        {% if f.image_path %}
-        <div class="image-section1" >
-            <img src="{{ f.image_path }}" alt="{{ f.title }}" style="width: 100%; max-width: 280px; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 12px;">
-        </div>
-        {% endif %}
+    <div class="project-row {% if forloop.index | modulo: 2 == 0 %}project-row--reverse{% endif %}">
+      {% if f.image_path %}
+      <div class="project-row__image">
+        <img src="{{ f.image_path }}" alt="{{ f.title }}">
+      </div>
+      {% endif %}
 
-        <div class="text-section1">
-            {% if f.title %}
-              <h1 class="titleHighlight">{{ f.title }}</h1>
-            {% endif %}
-            {% if f.people %}
-              <p>@{{ f.people }}</p>
-            {% endif %}
-            {% if f.excerpt %}
-              <p>{{ f.excerpt }}</p>
-            {% endif %}
-            {% if f.url %}
-              <div style = "text-align: left; color: #012696;">
-                <a href="{{ f.url | relative_url }}" class="learn-more-btn is-p">LEARN MORE</a>
-              </div>
-            {% endif %}
-        </div>
+      <div class="project-row__content">
+        {% if f.title %}
+          <h3>{{ f.title }}</h3>
+        {% endif %}
+        {% if f.people %}
+          <div class="project-lead"><i class="fas fa-user"></i> {{ f.people }}</div>
+        {% endif %}
+        {% if f.excerpt %}
+          <p>{{ f.excerpt }}</p>
+        {% endif %}
+        {% if f.url and f.url != "#" %}
+          <a href="{{ f.url | relative_url }}" class="learn-more-btn">Learn More</a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
