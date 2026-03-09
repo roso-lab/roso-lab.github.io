@@ -7,9 +7,9 @@
 <div class="team-grid">
   {% for f in feature_row %}
     {% if f.url %}
-    <a href="{{ f.url | relative_url }}" target="_blank" rel="noopener noreferrer" class="team-member" style="text-decoration: none; color: inherit;">
+    <a href="{{ f.url | relative_url }}" target="_blank" rel="noopener noreferrer" class="team-member anim-scale-in stagger-{{ forloop.index }}" style="text-decoration: none; color: inherit;">
     {% else %}
-    <div class="team-member">
+    <div class="team-member anim-scale-in stagger-{{ forloop.index }}">
     {% endif %}
       {% if f.image_path %}
         <img class="team-member__avatar" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">

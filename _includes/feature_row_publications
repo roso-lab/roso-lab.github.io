@@ -6,7 +6,7 @@
 
 <div class="pub-list">
   {% for f in feature_row %}
-    <div class="pub-card">
+    <div class="pub-card anim-fade-up">
       {% if f.image_path %}
         <img class="pub-card__image" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">
       {% endif %}

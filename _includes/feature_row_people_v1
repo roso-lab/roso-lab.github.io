@@ -12,10 +12,10 @@
     {% endif %}
 
     {% if has_team %}
-    <details class="member-card-expandable" {% if forloop.first %}open{% endif %}>
+    <details class="member-card-expandable anim-fade-up" {% if forloop.first %}open{% endif %}>
       <summary class="member-card-header">
     {% else %}
-    <div class="member-card-expandable member-card-no-expand">
+    <div class="member-card-expandable member-card-no-expand anim-fade-up">
       <div class="member-card-header">
     {% endif %}
 

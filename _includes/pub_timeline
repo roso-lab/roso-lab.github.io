@@ -3,7 +3,7 @@
 <div class="pub-tl">
   {% for yg in pub_years %}
     {% assign paper_count = yg.papers | size %}
-    <div class="pub-tl-year" data-year="{{ yg.year }}">
+    <div class="pub-tl-year anim-fade-up" data-year="{{ yg.year }}">
       <div class="pub-tl-year-header" onclick="togglePubYear(this)">
         <span class="pub-tl-dot"></span>
         <span class="pub-tl-label">{{ yg.year }}</span>

@@ -6,7 +6,7 @@
 
 <div class="projects-list">
   {% for f in feature_row %}
-    <div class="project-row {% if forloop.index | modulo: 2 == 0 %}project-row--reverse{% endif %}">
+    <div class="project-row anim-fade-up {% if forloop.index | modulo: 2 == 0 %}project-row--reverse{% endif %}">
       {% if f.image_path %}
       <div class="project-row__image">
         <img src="{{ f.image_path }}" alt="{{ f.title }}">
