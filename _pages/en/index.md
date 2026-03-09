@@ -3,10 +3,10 @@ permalink: /
 last_modified_at: 2025-1-11
 layout: splash
 lang: en
-excerpt: The Social Heterogeneous Multimachine Research School is a cutting-edge research organization dedicated to exploring and advancing the application of multi-robot systems in diverse social environments.
+excerpt: "Bridging Heterogeneous Multi-Robot Intelligence with Human Society"
 header:
-    image: assets/images/topImage.png
-    image_description: "Sample image"
+    overlay_color: "#fff"
+    overlay_filter: "0"
 
 feature_row_publications:
   - image_path: assets/images/publications/PepperPose.png

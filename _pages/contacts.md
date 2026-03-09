@@ -4,9 +4,8 @@ title: Contacts
 layout: splash
 lang: en
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  overlay_image: assets/images/robo_and_human_single_color.png
+  overlay_color: "#fff"
+  overlay_filter: "0"
 excerpt: "Get in touch with us — we welcome collaborations, inquiries, and visits"
 ---
 

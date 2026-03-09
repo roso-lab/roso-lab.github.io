@@ -4,9 +4,8 @@ title: Teachings
 layout: splash
 lang: en
 header:
-  overlay_color: "#000"
-  overlay_image: "assets/images/robo_and_human_single_color.png"
-  overlay_filter: "0.55"
+  overlay_color: "#fff"
+  overlay_filter: "0"
 excerpt: "Nurturing the next generation of robotics experts through education and training"
 
 courses_current:

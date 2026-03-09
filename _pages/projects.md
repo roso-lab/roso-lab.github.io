@@ -3,10 +3,9 @@ permalink: /projects/
 title: Projects
 layout: splash
 lang: en
-header: 
-  overlay_color: "#000"
-  overlay_image: "assets/images/robo_and_human_single_color.png"
-  overlay_filter: "0.55"
+header:
+  overlay_color: "#fff"
+  overlay_filter: "0"
 excerpt: "Societal Heterogenous Multi-Robot System Research Group makes the theoretical results come to fruition through these projects with practical significance"
 
 projects_2024:

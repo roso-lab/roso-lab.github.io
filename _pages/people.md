@@ -4,9 +4,8 @@ title: People
 layout: splash
 lang: en
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.55"
-  overlay_image: assets/images/robo_and_human_single_color.png
+  overlay_color: "#fff"
+  overlay_filter: "0"
 excerpt: 'Our members are committed to working with policy makers, industry leaders and the public to develop guiding principles and policies for a smarter, connected and inclusive future'
 
 feature_row_professors:
