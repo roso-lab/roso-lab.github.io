@@ -5,7 +5,8 @@ last_modified_at: 2025-1-11
 layout: splash
 lang: en
 header:
-  overlay_image: assets/images/robo_and_human_single_color.png
+  overlay_image: /assets/images/robo_and_human.jpg
+  overlay_color: "#0a0f1a"
   overlay_filter: "0.55"
 excerpt: "Bridging Heterogeneous Multi-Robot Intelligence with Human Society — Pioneering Collaborative Autonomy for Complex, Real-World Environments"
 
@@ -56,7 +57,7 @@ feature_row_people:
 ---
 
 <!-- About Us -->
-<section class="about-section" style="background: var(--gray-100);">
+<section class="about-section anim-fade-up" style="background: var(--gray-100);">
   <h2 class="section-title">About Us</h2>
   <p class="about-text">
     The <strong>ROSO Lab</strong> (Societal Heterogeneous Multi-Robot System Research Group) is an interdisciplinary research collective that investigates how teams of diverse robots — spanning aerial, ground, and humanoid platforms — can operate cohesively within complex human environments. Our work sits at the intersection of <em>multi-agent coordination</em>, <em>embodied AI</em>, and <em>human-robot interaction</em>, addressing fundamental challenges in distributed perception, decentralized decision-making, and socially-aware autonomy.
@@ -67,17 +68,18 @@ feature_row_people:
 </section>
 
 <!-- Recent News -->
+<div class="section-dark">
 <section class="section-spacing">
   <div class="container-wide">
-    <h2 class="section-title">Recent News</h2>
+    <h2 class="section-title anim-fade-up">Recent News</h2>
     <div class="news-grid">
-      <div class="news-card">
+      <div class="news-card anim-fade-up stagger-1">
         <span class="tag">Oct 2024</span>
         <h3>Embodied Intelligence Roundtable Forum</h3>
         <p>"Embodied Intelligence Socialized Heterogeneous Multi-machine" Roundtable Forum successfully held.</p>
         <a href="https://mp.weixin.qq.com/s/7r8JhqfZ3NdTq9vlF8G8Tw?poc_token=HL5eRWej6meIPMlNIYtGXVGTHAsxZ-flYhqayaM8" target="_blank" class="news-link">Read more &rarr;</a>
       </div>
-      <div class="news-card">
+      <div class="news-card anim-fade-up stagger-2">
         <span class="tag">Nov 2022</span>
         <h3>Jacobs Foundation Research Fellowship</h3>
         <p>Katie Winkle was granted the Jacobs Foundation Research Fellowship!</p>
@@ -86,9 +88,10 @@ feature_row_people:
     </div>
   </div>
 </section>
+</div>
 
 <!-- Selected Publications -->
-<section class="section-spacing" style="background: var(--brand-green-pale);">
+<section class="section-spacing anim-fade-up" style="background: var(--brand-green-pale);">
   <div class="container-wide">
     <h2 class="section-title">Selected Publications</h2>
     {% include feature_row_publications id="feature_row_publications" type="center-small" %}
@@ -97,10 +100,12 @@ feature_row_people:
 </section>
 
 <!-- Team -->
-<section class="section-spacing" style="background: var(--gray-100);">
+<div class="section-dark">
+<section class="section-spacing">
   <div class="container-wide">
-    <h2 class="section-title">Our Team</h2>
+    <h2 class="section-title anim-fade-up">Our Team</h2>
     {% include feature_row_people_list.html id="feature_row_people" %}
-    <a href="/people/" class="section-link">Meet the full team &rarr;</a>
+    <a href="/people/" class="section-link anim-fade-up">Meet the full team &rarr;</a>
   </div>
 </section>
+</div>

@@ -5,8 +5,9 @@ layout: splash
 lang: en
 excerpt: "Bridging Heterogeneous Multi-Robot Intelligence with Human Society — Pioneering Collaborative Autonomy for Complex, Real-World Environments"
 header:
+    overlay_image: /assets/images/robo_and_human.jpg
     overlay_color: "#0a0f1a"
-    overlay_filter: "0"
+    overlay_filter: "0.55"
 
 feature_row_publications:
   - image_path: assets/images/publications/PepperPose.png

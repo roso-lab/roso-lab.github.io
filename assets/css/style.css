@@ -442,13 +442,23 @@ img { max-width: 100%; height: auto; }
 .page__hero--overlay {
   min-height: 100vh;
   padding: 12rem 0 8rem 0;
-  background:
-    radial-gradient(ellipse at 20% 50%, rgba(99,102,241,0.12) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(6,182,212,0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 60% 80%, rgba(139,92,246,0.06) 0%, transparent 50%),
-    linear-gradient(135deg, #050810 0%, #0a0f1a 40%, #111827 100%) !important;
+  background-size: cover !important;
+  background-position: center 55% !important;
   position: relative;
   overflow: hidden;
+}
+
+/* Mesh gradient overlay on top of the hero photo */
+.page__hero--overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(99,102,241,0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(6,182,212,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 60% 80%, rgba(139,92,246,0.06) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Layer 2: Dot grid */
@@ -576,6 +586,35 @@ img { max-width: 100%; height: auto; }
 .section-dark .text-section p,
 .section-dark .text-section {
   color: var(--text-on-dark-muted);
+}
+
+.section-dark p,
+.section-dark h3 {
+  color: var(--text-on-dark-muted);
+}
+
+.section-dark .news-card {
+  background: var(--dark-card);
+  border-color: var(--dark-card-border);
+}
+
+.section-dark .news-card:hover {
+  background: var(--dark-card-hover);
+  border-color: var(--dark-card-border-hover);
+}
+
+.section-dark .news-card h3 {
+  color: var(--text-on-dark);
+}
+
+.section-dark .news-link,
+.section-dark .section-link {
+  color: var(--accent-light);
+}
+
+.section-dark .tag {
+  background: rgba(99,102,241,0.15);
+  color: var(--accent-light);
 }
 
 .section-dark .text-section h2 {
