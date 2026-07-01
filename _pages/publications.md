@@ -11,6 +11,11 @@ excerpt: "We promote breakthroughs through extensive and inspiring research"
 publications_by_year:
   - year: 2026
     papers:
+      - title: "TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams"
+        authors: "Y. Liu*, H. Zhang, Y. Liu, L. Zhang, C. Liang, & Y. Gao"
+        self_author: "Y. Gao"
+        venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026"
+        image: "assets/images/publications/2026_teamweaver.png"
       - title: "Emergent Co-Adaptive Strategies in Heterogeneous Multi-Robot Systems via Meta-Learning"
         authors: "H. Wang, L. Wang, T. L. Lam, J. Zhai, D. Lin, H. Zheng, X. He, & Y. Gao"
         self_author: "Y. Gao"
