@@ -11,6 +11,11 @@ excerpt: "We promote breakthroughs through extensive and inspiring research"
 publications_by_year:
   - year: 2026
     papers:
+      - title: "HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals"
+        authors: "L. Qiao, Y. Liang, Y. Gao, H. Huang, S. Samtani, B. Guo, & Z. Yu"
+        self_author: "Y. Gao"
+        venue: "IEEE Transactions on Cognitive and Developmental Systems (TCDS), 2026"
+        image: "assets/images/publications/2025_hdvins.png"
       - title: "TeamWeaver: Hybrid LLM and Optimization-based Planning with Transparent Constraints in Heterogeneous Multi-Robot Teams"
         authors: "Y. Liu, H. Zhang, Y. Liu, L. Zhang, C. Liang, & Y. Gao"
         self_author: "Y. Gao"
@@ -29,11 +34,6 @@ publications_by_year:
 
   - year: 2025
     papers:
-      - title: "HD-VINS: Highly Dynamic Visual-Inertial Navigation by Decoupling Dynamic-Static Residuals"
-        authors: "L. Qiao, Y. Liang, Y. Gao, H. Huang, S. Samtani, B. Guo, & Z. Yu"
-        self_author: "Y. Gao"
-        venue: "IEEE Transactions on Cognitive and Developmental Systems (TCDS), 2025"
-        image: "assets/images/publications/2025_hdvins.png"
       - title: "Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models"
         authors: "T. Yan, Z. Lin, L. Zhang, Z. Sun, & Y. Gao"
         self_author: "Y. Gao"
